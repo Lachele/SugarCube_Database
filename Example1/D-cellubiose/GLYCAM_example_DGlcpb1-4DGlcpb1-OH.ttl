@@ -1,0 +1,190 @@
+@prefix ttl: <http://www.semanticweb.org/owl/owlapi/turtle#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix gmmo: <http://gmmo.uga.edu/#> .
+@prefix : <http://gmmo.uga.edu/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://gmmo.uga.edu/> .
+<http://gmmo.uga.edu/> rdf:type owl:Ontology .
+
+    ################################################    
+    #                     MODEL                    #    
+    ################################################    
+
+:model
+	:identifier	"""MODEL""";
+	:hasTitle	"""DGlcpb1-4DGlcpb1-OH""";
+	:hasAuthors	"""GLYCAM-WEB (gmml2) generated""";
+	:hasOligo 	:model_oligo1;
+	:hasMono	:model_mono1;
+	:hasMono	:model_mono0;
+	rdf:type	:PDB.
+
+    ################################################    
+    #                Oligosaccharides              #    
+    ################################################    
+
+        ################################################        
+        #            model_oligo1 Information          #        
+        ################################################        
+:model_oligo1
+	:oligoSequenceName	"""DGlcpb1-4DGlcpb1-ROH""";
+	:oligoIUPACname		"""DGlcpb1-4DGlcpb1-ROH""";
+	:oligoResidueLinks	"""0GB(3_)-4GB(2_)""";
+	:InChI_code """1S/C12H22O11/c13-1-3-5(15)6(16)9(19)12(22-3)23-10-4(2-14)21-11(20)8(18)7(10)17/h3-20H,1-2H2/t3-,4-,5-,6+,7-,8-,9-,10-,11-,12+/m1/s1""";
+	:isChemicallyModified	false;
+	:hasModifiedTerminal	false;
+	:isAttachedToProtein	false;
+
+	:hasMono		:model_mono1;
+	:hasSequenceResidue	:model_oligo1_res1;
+	:hasTerminal		"""1-ROH""";
+
+	:hasMono		:model_mono0;
+	:hasSequenceResidue	:model_oligo1_res0;
+	:hasGlycosidicLinkage	:model_oligo1_link_0;
+
+	rdf:type		:Oligosaccharide.
+
+    ################################################    
+    #                Monosaccharides               #    
+    ################################################    
+
+        ################################################        
+        #             model_mono1 Information          #        
+        ################################################        
+:model_mono1
+	:hasOligoParent		:model_oligo1;
+	:hasIndex		"1"^^xsd:integer;
+	:hasIUPACIndex		"0"^^xsd:integer;
+	:hasNameIndex		"0"^^xsd:integer;
+	:hasResidueName		"""0GB""";
+	:identifier		"""0GB_?_3_?_?_1""";
+	:isNucleotide		false;
+	:isSaccharide		true;
+	:anomericNElement	"""O""";
+	:hasNonRingN		false;
+	:hasNonRingO		false;
+	:hasRingO		true;
+	:stereochemName		"""b-D-glucopyranose""";
+	:stereochemShortName	"""DGlcpb""";
+	:monoName		"""b-D-glucopyranose""";
+	:shortName		"""DGlcpb""";
+	:isomer			"""D""";
+	:configuration		"""beta""";
+	:ringType		"""P""";
+	:hasSNFGName		"""Glc""";
+	rdf:type		:Monosaccharide.
+
+        ################################################        
+        #             model_mono0 Information          #        
+        ################################################        
+:model_mono0
+	:hasOligoParent		:model_oligo1;
+	:hasIndex		"0"^^xsd:integer;
+	:hasIUPACIndex		"1"^^xsd:integer;
+	:hasNameIndex		"1"^^xsd:integer;
+	:hasResidueName		"""4GB""";
+	:identifier		"""4GB_?_2_?_?_1""";
+	:isNucleotide		false;
+	:isSaccharide		true;
+	:anomericNElement	"""O""";
+	:hasNonRingN		false;
+	:hasNonRingO		false;
+	:hasRingO		true;
+	:stereochemName		"""b-D-glucopyranose""";
+	:stereochemShortName	"""DGlcpb""";
+	:monoName		"""b-D-glucopyranose""";
+	:shortName		"""DGlcpb""";
+	:isomer			"""D""";
+	:configuration		"""beta""";
+	:ringType		"""P""";
+	:hasSNFGName		"""Glc""";
+	rdf:type		:Monosaccharide.
+
+    ################################################    
+    #                    Linkages                  #    
+    ################################################    
+
+        ################################################        
+        #        :model_oligo1_link_0 Information      #        
+        ################################################        
+:model_oligo1_link_0
+	:hasParentMono		:model_mono0;
+	:hasChildMono		:model_mono1;
+	:linkageType		"""1-4""";
+	:orientation		"""equatorial""";
+	:configuration		"""b""";
+	:glycosidicLinkage	"""DGlcpb1-4DGlcpb""";
+	:residueLinkage		"""0GB_?_3_?_?_1 (1-4) 4GB_?_2_?_?_1""";
+	rdf:type		:Linkage.
+
+    ################################################    
+    #                    Residues                  #    
+    ################################################    
+
+:model_oligo1_res1
+	:isConnectedTo		:model_oligo1_terminal;
+	rdf:type		:SequenceResidue.
+
+:model_oligo1_res0
+	:is1-4ConnectedTo	:model_oligo1_res1;
+	:isConnectedTo		:model_oligo1_res1;
+	rdf:type		:SequenceResidue.
+
+    ################################################    
+    #          Oligosaccharide Structures          #    
+    ################################################    
+
+:model_oligo1 gmmo:PDBfile """TITLE     Generated by GMML                                                     
+LINK        O4   4GB   2                 C1   0GB   3                  1.45  
+ATOM      1  HO1 ROH     1      -3.637   9.209  -1.282  1.00  0.00             H
+ATOM      2  O1  ROH     1      -4.084   9.529  -2.069  1.00  0.00             O
+ATOM      3  C1  4GB     2      -3.785  10.920  -2.256  1.00  0.00             C
+ATOM      4  H1  4GB     2      -2.707  11.036  -2.375  1.00  0.00             H
+ATOM      5  O5  4GB     2      -4.222  11.705  -1.085  1.00  0.00             O
+ATOM      6  C5  4GB     2      -4.031  13.171  -1.167  1.00  0.00             C
+ATOM      7  H5  4GB     2      -2.970  13.379  -1.324  1.00  0.00             H
+ATOM      8  C6  4GB     2      -4.470  13.786   0.168  1.00  0.00             C
+ATOM      9  H62 4GB     2      -5.505  13.523   0.391  1.00  0.00             H
+ATOM     10  H61 4GB     2      -4.389  14.872   0.133  1.00  0.00             H
+ATOM     11  O6  4GB     2      -3.617  13.294   1.210  1.00  0.00             O
+ATOM     12  H6O 4GB     2      -3.682  12.337   1.250  1.00  0.00             H
+ATOM     13  C4  4GB     2      -4.829  13.688  -2.377  1.00  0.00             C
+ATOM     14  H4  4GB     2      -5.897  13.546  -2.185  1.00  0.00             H
+ATOM     15  C3  4GB     2      -4.446  12.947  -3.669  1.00  0.00             C
+ATOM     16  H3  4GB     2      -3.434  13.235  -3.962  1.00  0.00             H
+ATOM     17  O3  4GB     2      -5.366  13.346  -4.700  1.00  0.00             O
+ATOM     18  H3O 4GB     2      -5.139  12.903  -5.520  1.00  0.00             H
+ATOM     19  C2  4GB     2      -4.528  11.417  -3.511  1.00  0.00             C
+ATOM     20  H2  4GB     2      -5.572  11.102  -3.471  1.00  0.00             H
+ATOM     21  O2  4GB     2      -3.894  10.825  -4.660  1.00  0.00             O
+ATOM     22  H2O 4GB     2      -3.933   9.868  -4.588  1.00  0.00             H
+ATOM     23  O4  4GB     2      -4.520  15.119  -2.561  1.00  0.00             O
+ATOM     24  C1  0GB     3      -5.626  16.053  -2.296  1.00  0.00             C
+ATOM     25  H1  0GB     3      -6.094  15.795  -1.345  1.00  0.00             H
+ATOM     26  O5  0GB     3      -6.638  15.996  -3.369  1.00  0.00             O
+ATOM     27  C5  0GB     3      -7.797  16.904  -3.223  1.00  0.00             C
+ATOM     28  H5  0GB     3      -8.303  16.674  -2.283  1.00  0.00             H
+ATOM     29  C6  0GB     3      -8.755  16.631  -4.390  1.00  0.00             C
+ATOM     30  H62 0GB     3      -8.247  16.763  -5.346  1.00  0.00             H
+ATOM     31  H61 0GB     3      -9.606  17.313  -4.354  1.00  0.00             H
+ATOM     32  O6  0GB     3      -9.238  15.284  -4.290  1.00  0.00             O
+ATOM     33  H6O 0GB     3      -8.496  14.676  -4.322  1.00  0.00             H
+ATOM     34  C4  0GB     3      -7.268  18.352  -3.176  1.00  0.00             C
+ATOM     35  H4  0GB     3      -6.887  18.631  -4.161  1.00  0.00             H
+ATOM     36  O4  0GB     3      -8.368  19.213  -2.833  1.00  0.00             O
+ATOM     37  H4O 0GB     3      -8.064  20.123  -2.802  1.00  0.00             H
+ATOM     38  C3  0GB     3      -6.168  18.541  -2.114  1.00  0.00             C
+ATOM     39  H3  0GB     3      -6.610  18.500  -1.116  1.00  0.00             H
+ATOM     40  O3  0GB     3      -5.569  19.834  -2.314  1.00  0.00             O
+ATOM     41  H3O 0GB     3      -4.881  19.972  -1.659  1.00  0.00             H
+ATOM     42  C2  0GB     3      -5.059  17.479  -2.232  1.00  0.00             C
+ATOM     43  H2  0GB     3      -4.450  17.668  -3.119  1.00  0.00             H
+ATOM     44  O2  0GB     3      -4.228  17.563  -1.060  1.00  0.00             O
+ATOM     45  H2O 0GB     3      -3.531  16.906  -1.116  1.00  0.00             H
+TER      46      0GB     3   
+END 
+""".
