@@ -1,0 +1,1037 @@
+data_bmse000918
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                   entry_information
+   _Entry.Sf_framecode                  entry_information
+   _Entry.ID                            bmse000918
+   _Entry.Title                         sucrose
+   _Entry.Version_type                  update
+   _Entry.Submission_date               2012-02-13
+   _Entry.Accession_date                2012-02-13
+   _Entry.Last_release_date             2012-10-17
+   _Entry.Original_release_date         2012-02-13
+   _Entry.Origination                   author
+   _Entry.NMR_STAR_version              3.1.1.21
+   _Entry.Original_NMR_STAR_version     3.1.1.21
+   _Entry.Experimental_method           NMR
+   _Entry.Experimental_method_subtype   solution
+   _Entry.DOI                           10.13018/BMSE000918
+   _Entry.BMRB_internal_directory_name  sucrose
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Entry_ID
+
+     1   Francisca   Jofre      F.   ?    bmse000918    
+     2   Mark        Anderson   M.   E.   bmse000918    
+     3   John        Markley    J.   L.   bmse000918    
+
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+     1   metabolomics   'National Magnetic Facility at Madison'   NMRFAM   bmse000918    
+     2   metabolomics   'Biological Magnetic Resonance Bank'      BMRB     bmse000918    
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+     1   2012-02-13   2012-02-13   original   BMRB   'Original spectra from BMRB'                                                           bmse000918    
+     2   2012-09-13   2012-02-13   update     BMRB   'Added PubChem SID 144080919 to database loop'                                         bmse000918    
+     3   2012-10-17   2012-02-13   update     BMRB   'Set all _Chem_comp_SMILES Types to lower case'                                        bmse000918    
+     4   2017-10-12   2017-10-12   update     BMRB   'Remediated Experiment_file loop if present and standardized mol and png file tags.'   bmse000918    
+     5   2017-12-19   2017-10-12   update     BMRB   'InChI numbering updated according to ALATIS'                                          bmse000918    
+
+   stop_
+
+save_
+
+###############
+#  Citations  #
+###############
+
+save_citation_1
+   _Citation.Sf_category   citations
+   _Citation.Sf_framecode  citation_1
+   _Citation.Entry_ID      bmse000918
+   _Citation.ID            1
+   _Citation.Class         'reference citation'
+   _Citation.PubMed_ID     17170002
+   _Citation.Title         'Database resources of the National Center for Biotechnology Information.'
+   _Citation.Status        published
+   _Citation.Type          internet
+   _Citation.WWW_URL       http://pubchem.ncbi.nlm.nih.gov/
+   _Citation.Year          2006
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+     1    D.   Wheeler      D.   L.   bmse000918   1    
+     2    T.   Barrett      T.   ?    bmse000918   1    
+     3    D.   Benson       D.   A.   bmse000918   1    
+     4    S.   Bryant       S.   H.   bmse000918   1    
+     5    K.   Canese       K.   ?    bmse000918   1    
+     6    V.   Chetvenin    V.   ?    bmse000918   1    
+     7    D.   Church       D.   M.   bmse000918   1    
+     8    M.   DiCuccio     M.   ?    bmse000918   1    
+     9    R.   Edgar        R.   ?    bmse000918   1    
+     10   S.   Federhen     S.   ?    bmse000918   1    
+     11   L.   Geer         L.   Y.   bmse000918   1    
+     12   W.   Helmberg     W.   ?    bmse000918   1    
+     13   Y.   Kapustin     Y.   ?    bmse000918   1    
+     14   D.   Kenton       D.   L.   bmse000918   1    
+     15   O.   Khovayko     O.   ?    bmse000918   1    
+     16   D.   Lipman       D.   J.   bmse000918   1    
+     17   T.   Madden       T.   L.   bmse000918   1    
+     18   D.   Maglott      D.   R.   bmse000918   1    
+     19   J.   Ostell       J.   ?    bmse000918   1    
+     20   K.   Pruitt       K.   D.   bmse000918   1    
+     21   G.   Schuler      G.   D.   bmse000918   1    
+     22   L.   Schriml      L.   M.   bmse000918   1    
+     23   E.   Sequeira     E.   ?    bmse000918   1    
+     24   S.   Sherry       S.   T.   bmse000918   1    
+     25   K.   Sirotkin     K.   ?    bmse000918   1    
+     26   A.   Souvorov     A.   ?    bmse000918   1    
+     27   G.   Starchenko   G.   ?    bmse000918   1    
+     28   T.   Suzek        T.   O.   bmse000918   1    
+     29   R.   Tatusov      R.   ?    bmse000918   1    
+     30   T.   Tatusova     T.   A.   bmse000918   1    
+     31   L.   Bagner       L.   ?    bmse000918   1    
+     32   E.   Yaschenko    E.   ?    bmse000918   1    
+
+   stop_
+
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category           assembly
+   _Assembly.Sf_framecode          assembly
+   _Assembly.Entry_ID              bmse000918
+   _Assembly.ID                    1
+   _Assembly.Name                  Sucrose
+   _Assembly.Number_of_components  1
+   _Assembly.Organic_ligands       0
+   _Assembly.Non_standard_bonds    no
+   _Assembly.Paramagnetic          no
+   _Assembly.Thiol_state           'not reported'
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+     1   sucrose   1   $sucrose   yes   native   no   no   bmse000918   1    
+
+   stop_
+
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_sucrose
+   _Entity.Sf_category                      entity
+   _Entity.Sf_framecode                     sucrose
+   _Entity.Entry_ID                         bmse000918
+   _Entity.ID                               1
+   _Entity.Name                             sucrose
+   _Entity.Type                             non-polymer
+   _Entity.Ambiguous_conformational_states  no
+   _Entity.Ambiguous_chem_comp_sites        no
+   _Entity.Nstd_monomer                     no
+   _Entity.Nstd_chirality                   no
+   _Entity.Nstd_linkage                     no
+   _Entity.Paramagnetic                     no
+   _Entity.Thiol_state                      'not reported'
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+     1   1   $chem_comp_1   bmse000918   1    
+
+   stop_
+
+save_
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category   natural_source
+   _Entity_natural_src_list.Sf_framecode  natural_source
+   _Entity_natural_src_list.Entry_ID      bmse000918
+   _Entity_natural_src_list.ID            1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+     1   1   $sucrose   n/a   'multiple natural sources'   yes   'not applicable'   n/a   n/a   n/a   n/a   n/a   bmse000918   1    
+
+   stop_
+
+save_
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category   experimental_source
+   _Entity_experimental_src_list.Sf_framecode  experimental_source
+   _Entity_experimental_src_list.Entry_ID      bmse000918
+   _Entity_experimental_src_list.ID            1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+     1   1   $sucrose   'chemical synthesis'   bmse000918   1    
+
+   stop_
+
+save_
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+save_chem_comp_1
+   _Chem_comp.Sf_category                      chem_comp
+   _Chem_comp.Sf_framecode                     chem_comp_1
+   _Chem_comp.Entry_ID                         bmse000918
+   _Chem_comp.ID                               1
+   _Chem_comp.Provenance                       PubChem
+   _Chem_comp.Name                             Sucrose
+   _Chem_comp.Type                             non-polymer
+   _Chem_comp.InChI_code                       InChI=1S/C12H22O11/c13-1-4-6(16)8(18)9(19)11(21-4)23-12(3-15)10(20)7(17)5(2-14)22-12/h4-11,13-20H,1-3H2/t4-,5-,6-,7-,8+,9-,10+,11-,12+/m1/s1
+   _Chem_comp.Paramagnetic                     no
+   _Chem_comp.Aromatic                         no
+   _Chem_comp.Formula                          'C12 H22 O11'
+   _Chem_comp.Formula_weight                   342.2964800000
+   _Chem_comp.Formula_mono_iso_wt_nat          342.116211549
+   _Chem_comp.Formula_mono_iso_wt_13C          354.156469603
+   _Chem_comp.Formula_mono_iso_wt_15N          342.116211549
+   _Chem_comp.Formula_mono_iso_wt_13C_15N      354.156469603
+   _Chem_comp.Image_file_name                  bmse000918.png
+   _Chem_comp.Image_file_format                png
+   _Chem_comp.Struct_file_name                 bmse000918.mol
+   _Chem_comp.Struct_file_format               mol
+
+   loop_
+      _Chem_comp_common_name.Name
+      _Chem_comp_common_name.Type
+      _Chem_comp_common_name.Entry_ID
+      _Chem_comp_common_name.Comp_ID
+
+     'Sucrose, pure'                                      synonym   bmse000918   1    
+     'Sucrose, dust'                                      synonym   bmse000918   1    
+     'alpha-D-Glucopyranoside, beta-D-fructofuranosyl'    synonym   bmse000918   1    
+     'Granulated sugar'                                   synonym   bmse000918   1    
+     1-alpha-D-Glucopyranosyl-2-beta-D-fructofuranoside   synonym   bmse000918   1    
+     Sugar                                                synonym   bmse000918   1    
+     'Fructofuranoside, alpha-D-glucopyranosyl, beta-D'   synonym   bmse000918   1    
+     Microse                                              synonym   bmse000918   1    
+     D-Sucrose                                            synonym   bmse000918   1    
+     Amerfond                                             synonym   bmse000918   1    
+     'White sugar'                                        synonym   bmse000918   1    
+     SUCROSE                                              synonym   bmse000918   1    
+     'Glucopyranoside, beta-D-fructofuranosyl, alpha-D'   synonym   bmse000918   1    
+     'Cane sugar'                                         synonym   bmse000918   1    
+     'Rock candy'                                         synonym   bmse000918   1    
+     "Confectioner's sugar"                               synonym   bmse000918   1    
+     'Sucraloxum [INN-Latin]'                             synonym   bmse000918   1    
+     'alpha-D-Glucopyranoside, beta-D-fructofuranosyl-'   synonym   bmse000918   1    
+     beta-D-Fructofuranosyl-alpha-D-glucopyranoside       synonym   bmse000918   1    
+     (alpha-D-Glucosido)-beta-D-fructofuranoside          synonym   bmse000918   1    
+     Saccharose                                           synonym   bmse000918   1    
+     Rohrzucker                                           synonym   bmse000918   1    
+     Amerfand                                             synonym   bmse000918   1    
+     'Beet sugar'                                         synonym   bmse000918   1    
+     'Table sugar'                                        synonym   bmse000918   1    
+     Sucrose                                              synonym   bmse000918   1    
+     Saccharum                                            synonym   bmse000918   1    
+     'beta-D-Fructofuranosyl alpha-D-glucopyranoside'     synonym   bmse000918   1    
+     'alpha-D-Glucopyranosyl beta-D-fructofuranoside'     synonym   bmse000918   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+     
+;
+InChI=1S/C12H22O11/c13-1-4-6(16)8(18)9(19)11(21-4)23-12(3-15)10(20)7(17)5(2-14)22-12/h4-11,13-20H,1-3H2/t4-,5-,6-,7-,8+,9-,10+,11-,12+/m1/s1
+;
+INCHI   na       na      bmse000918   1    
+     InChI=1S/C12H22O11/c13-1-4-6(16)8(18)9(19)11(21-4)23-12(3-15)10(20)7(17)5(2-14)22-12/h4-11,13-20H,1-3H2/t4-,5-,6-,7-,8+,9-,10+,11-,12+/m1/s1    INCHI   ALATIS   3.003   bmse000918   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_systematic_name.Name
+      _Chem_comp_systematic_name.Naming_system
+      _Chem_comp_systematic_name.Entry_ID
+      _Chem_comp_systematic_name.Comp_ID
+
+     
+;
+(2R,3R,4S,5R,6R)-2-[(2S,3S,4R,5R)-3,4-dihydroxy-2,5-bis(hydroxymethyl)oxolan-2-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol
+;
+                 IUPAC               bmse000918   1    
+     
+;
+(2R,3R,4S,5R,6R)-2-[(2S,3S,4R,5R)-3,4-dihydroxy-2,5-dimethylol-tetrahydrofuran-2-yl]oxy-6-methylol-tetrahydropyran-3,4,5-triol
+;
+           IUPAC_TRADITIONAL   bmse000918   1    
+     
+;
+(2R,3R,4S,5R,6R)-2-[(2S,3S,4R,5R)-3,4-dihydroxy-2,5-bis(hydroxymethyl)tetrahydrofuran-2-yl]oxy-6-(hydroxymethyl)tetrahydropyran-3,4,5-triol
+;
+IUPAC_CAS           bmse000918   1    
+     
+;
+(2R,3R,4S,5R,6R)-2-[(2S,3S,4R,5R)-3,4-dihydroxy-2,5-bis(hydroxymethyl)tetrahydrofuran-2-yl]oxy-6-(hydroxymethyl)tetrahydropyran-3,4,5-triol
+;
+IUPAC_OPENEYE       bmse000918   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_SMILES.Type
+      _Chem_comp_SMILES.String
+      _Chem_comp_SMILES.Entry_ID
+      _Chem_comp_SMILES.Comp_ID
+
+     isomeric    C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)O)O)O)O   bmse000918   1    
+     canonical   C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)CO)O)O)O)O                                         bmse000918   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+     C11   C   4.2690   -0.5961   1    bmse000918   1    
+     C9    C   3.4030   -1.0961   2    bmse000918   1    
+     C8    C   3.4030   -2.0961   3    bmse000918   1    
+     C6    C   4.2690   -2.5961   4    bmse000918   1    
+     C4    C   5.1350   -2.0961   5    bmse000918   1    
+     C1    C   6.0010   -2.5961   6    bmse000918   1    
+     O23   O   4.2690   0.4039    7    bmse000918   1    
+     O19   O   2.5369   -0.5961   8    bmse000918   1    
+     O18   O   2.5369   -2.5961   9    bmse000918   1    
+     O16   O   4.2690   -3.5961   10   bmse000918   1    
+     O21   O   5.1350   -1.0961   11   bmse000918   1    
+     O13   O   6.0010   -3.5961   12   bmse000918   1    
+     C12   C   5.1350   0.9039    13   bmse000918   1    
+     C10   C   4.6350   1.7699    14   bmse000918   1    
+     C7    C   5.3041   2.5131    15   bmse000918   1    
+     C5    C   6.2177   2.1063    16   bmse000918   1    
+     C2    C   7.0837   2.6063    17   bmse000918   1    
+     O22   O   6.1132   1.1118    18   bmse000918   1    
+     O20   O   3.6405   1.8745    19   bmse000918   1    
+     O17   O   5.0962   3.4912    20   bmse000918   1    
+     O14   O   7.9497   2.1063    21   bmse000918   1    
+     C3    C   5.3429   -0.0742   22   bmse000918   1    
+     O15   O   6.2940   -0.3833   23   bmse000918   1    
+     H37   H   3.7321   -0.2861   24   bmse000918   1    
+     H35   H   3.4030   -0.4761   25   bmse000918   1    
+     H34   H   3.4030   -2.7161   26   bmse000918   1    
+     H32   H   4.8059   -2.9061   27   bmse000918   1    
+     H30   H   5.6719   -1.7861   28   bmse000918   1    
+     H24   H   6.6116   -2.7038   29   bmse000918   1    
+     H25   H   6.2131   -2.0135   30   bmse000918   1    
+     H44   H   2.0000   -0.9061   31   bmse000918   1    
+     H43   H   2.5369   -3.2161   32   bmse000918   1    
+     H41   H   3.7321   -3.9061   33   bmse000918   1    
+     H38   H   6.5380   -3.9061   34   bmse000918   1    
+     H36   H   4.2973   1.2500    35   bmse000918   1    
+     H33   H   4.7053   2.6735    36   bmse000918   1    
+     H31   H   6.7377   1.7687    37   bmse000918   1    
+     H26   H   7.4822   3.0813    38   bmse000918   1    
+     H27   H   6.6852   3.0813    39   bmse000918   1    
+     H45   H   3.3883   2.4409    40   bmse000918   1    
+     H42   H   5.5570   3.9061    41   bmse000918   1    
+     H39   H   8.4867   2.4163    42   bmse000918   1    
+     H28   H   4.7233   -0.0959   43   bmse000918   1    
+     H29   H   5.2566   -0.6882   44   bmse000918   1    
+     H40   H   6.4229   -0.9897   45   bmse000918   1    
+
+   stop_
+
+   loop_
+      _Atom_nomenclature.Atom_ID
+      _Atom_nomenclature.Atom_name
+      _Atom_nomenclature.Naming_system
+      _Atom_nomenclature.Entry_ID
+      _Atom_nomenclature.Comp_ID
+
+     C11   C1    BMRB     bmse000918   1    
+     C9    C2    BMRB     bmse000918   1    
+     C8    C3    BMRB     bmse000918   1    
+     C6    C4    BMRB     bmse000918   1    
+     C4    C5    BMRB     bmse000918   1    
+     C1    C6    BMRB     bmse000918   1    
+     O23   O7    BMRB     bmse000918   1    
+     O19   O8    BMRB     bmse000918   1    
+     O18   O9    BMRB     bmse000918   1    
+     O16   O10   BMRB     bmse000918   1    
+     O21   O11   BMRB     bmse000918   1    
+     O13   O12   BMRB     bmse000918   1    
+     C12   C13   BMRB     bmse000918   1    
+     C10   C14   BMRB     bmse000918   1    
+     C7    C15   BMRB     bmse000918   1    
+     C5    C16   BMRB     bmse000918   1    
+     C2    C17   BMRB     bmse000918   1    
+     O22   O18   BMRB     bmse000918   1    
+     O20   O19   BMRB     bmse000918   1    
+     O17   O20   BMRB     bmse000918   1    
+     O14   O21   BMRB     bmse000918   1    
+     C3    C22   BMRB     bmse000918   1    
+     O15   O23   BMRB     bmse000918   1    
+     H37   H24   BMRB     bmse000918   1    
+     H35   H25   BMRB     bmse000918   1    
+     H34   H26   BMRB     bmse000918   1    
+     H32   H27   BMRB     bmse000918   1    
+     H30   H28   BMRB     bmse000918   1    
+     H24   H29   BMRB     bmse000918   1    
+     H25   H30   BMRB     bmse000918   1    
+     H44   H31   BMRB     bmse000918   1    
+     H43   H32   BMRB     bmse000918   1    
+     H41   H33   BMRB     bmse000918   1    
+     H38   H34   BMRB     bmse000918   1    
+     H36   H35   BMRB     bmse000918   1    
+     H33   H36   BMRB     bmse000918   1    
+     H31   H37   BMRB     bmse000918   1    
+     H26   H38   BMRB     bmse000918   1    
+     H27   H39   BMRB     bmse000918   1    
+     H45   H40   BMRB     bmse000918   1    
+     H42   H41   BMRB     bmse000918   1    
+     H39   H42   BMRB     bmse000918   1    
+     H28   H43   BMRB     bmse000918   1    
+     H29   H44   BMRB     bmse000918   1    
+     H40   H45   BMRB     bmse000918   1    
+     C11   C11   ALATIS   bmse000918   1    
+     C9    C9    ALATIS   bmse000918   1    
+     C8    C8    ALATIS   bmse000918   1    
+     C6    C6    ALATIS   bmse000918   1    
+     C4    C4    ALATIS   bmse000918   1    
+     C1    C1    ALATIS   bmse000918   1    
+     O23   O23   ALATIS   bmse000918   1    
+     O19   O19   ALATIS   bmse000918   1    
+     O18   O18   ALATIS   bmse000918   1    
+     O16   O16   ALATIS   bmse000918   1    
+     O21   O21   ALATIS   bmse000918   1    
+     O13   O13   ALATIS   bmse000918   1    
+     C12   C12   ALATIS   bmse000918   1    
+     C10   C10   ALATIS   bmse000918   1    
+     C7    C7    ALATIS   bmse000918   1    
+     C5    C5    ALATIS   bmse000918   1    
+     C2    C2    ALATIS   bmse000918   1    
+     O22   O22   ALATIS   bmse000918   1    
+     O20   O20   ALATIS   bmse000918   1    
+     O17   O17   ALATIS   bmse000918   1    
+     O14   O14   ALATIS   bmse000918   1    
+     C3    C3    ALATIS   bmse000918   1    
+     O15   O15   ALATIS   bmse000918   1    
+     H37   H37   ALATIS   bmse000918   1    
+     H35   H35   ALATIS   bmse000918   1    
+     H34   H34   ALATIS   bmse000918   1    
+     H32   H32   ALATIS   bmse000918   1    
+     H30   H30   ALATIS   bmse000918   1    
+     H24   H24   ALATIS   bmse000918   1    
+     H25   H25   ALATIS   bmse000918   1    
+     H44   H44   ALATIS   bmse000918   1    
+     H43   H43   ALATIS   bmse000918   1    
+     H41   H41   ALATIS   bmse000918   1    
+     H38   H38   ALATIS   bmse000918   1    
+     H36   H36   ALATIS   bmse000918   1    
+     H33   H33   ALATIS   bmse000918   1    
+     H31   H31   ALATIS   bmse000918   1    
+     H26   H26   ALATIS   bmse000918   1    
+     H27   H27   ALATIS   bmse000918   1    
+     H45   H45   ALATIS   bmse000918   1    
+     H42   H42   ALATIS   bmse000918   1    
+     H39   H39   ALATIS   bmse000918   1    
+     H28   H28   ALATIS   bmse000918   1    
+     H29   H29   ALATIS   bmse000918   1    
+     H40   H40   ALATIS   bmse000918   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+     1    covalent   SING   C11   C9    bmse000918   1    
+     2    covalent   SING   C11   O23   bmse000918   1    
+     3    covalent   SING   C11   O21   bmse000918   1    
+     4    covalent   SING   C11   H37   bmse000918   1    
+     5    covalent   SING   C9    C8    bmse000918   1    
+     6    covalent   SING   C9    O19   bmse000918   1    
+     7    covalent   SING   C9    H35   bmse000918   1    
+     8    covalent   SING   C8    C6    bmse000918   1    
+     9    covalent   SING   C8    O18   bmse000918   1    
+     10   covalent   SING   C8    H34   bmse000918   1    
+     11   covalent   SING   C6    C4    bmse000918   1    
+     12   covalent   SING   C6    O16   bmse000918   1    
+     13   covalent   SING   C6    H32   bmse000918   1    
+     14   covalent   SING   C4    C1    bmse000918   1    
+     15   covalent   SING   C4    O21   bmse000918   1    
+     16   covalent   SING   C4    H30   bmse000918   1    
+     17   covalent   SING   C1    O13   bmse000918   1    
+     18   covalent   SING   C1    H24   bmse000918   1    
+     19   covalent   SING   C1    H25   bmse000918   1    
+     20   covalent   SING   C12   O23   bmse000918   1    
+     21   covalent   SING   O19   H44   bmse000918   1    
+     22   covalent   SING   O18   H43   bmse000918   1    
+     23   covalent   SING   O16   H41   bmse000918   1    
+     24   covalent   SING   O13   H38   bmse000918   1    
+     25   covalent   SING   C12   C10   bmse000918   1    
+     26   covalent   SING   C12   O22   bmse000918   1    
+     27   covalent   SING   C12   C3    bmse000918   1    
+     28   covalent   SING   C10   C7    bmse000918   1    
+     29   covalent   SING   C10   O20   bmse000918   1    
+     30   covalent   SING   C10   H36   bmse000918   1    
+     31   covalent   SING   C7    C5    bmse000918   1    
+     32   covalent   SING   C7    O17   bmse000918   1    
+     33   covalent   SING   C7    H33   bmse000918   1    
+     34   covalent   SING   C5    C2    bmse000918   1    
+     35   covalent   SING   C5    O22   bmse000918   1    
+     36   covalent   SING   C5    H31   bmse000918   1    
+     37   covalent   SING   C2    O14   bmse000918   1    
+     38   covalent   SING   C2    H26   bmse000918   1    
+     39   covalent   SING   C2    H27   bmse000918   1    
+     40   covalent   SING   O20   H45   bmse000918   1    
+     41   covalent   SING   O17   H42   bmse000918   1    
+     42   covalent   SING   O14   H39   bmse000918   1    
+     43   covalent   SING   C3    O15   bmse000918   1    
+     44   covalent   SING   C3    H28   bmse000918   1    
+     45   covalent   SING   C3    H29   bmse000918   1    
+     46   covalent   SING   O15   H40   bmse000918   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_db_link.Author_supplied
+      _Chem_comp_db_link.Database_code
+      _Chem_comp_db_link.Accession_code
+      _Chem_comp_db_link.Accession_code_type
+      _Chem_comp_db_link.Entry_mol_name
+      _Chem_comp_db_link.Entry_relation_type
+      _Chem_comp_db_link.Entry_ID
+      _Chem_comp_db_link.Comp_ID
+
+     no   PubChem          144080919     sid                    Sucrose   'matching entry'   bmse000918   1    
+     no   PubChem          148828        sid                    Sucrose   'matching entry'   bmse000918   1    
+     no   PubChem          5988          cid                    Sucrose   'matching entry'   bmse000918   1    
+     no   PubChem          3389          sid                    Sucrose   'matching entry'   bmse000918   1    
+     no   KEGG             C00089        'compound ID'          Sucrose   'matching entry'   bmse000918   1    
+     no   'CAS Registry'   100405-08-1   'registry number'      Sucrose   'matching entry'   bmse000918   1    
+     no   'CAS Registry'   104242-10-6   'registry number'      Sucrose   'matching entry'   bmse000918   1    
+     no   'CAS Registry'   131932-12-2   'registry number'      Sucrose   'matching entry'   bmse000918   1    
+     no   'CAS Registry'   146054-35-5   'registry number'      Sucrose   'matching entry'   bmse000918   1    
+     no   'CAS Registry'   146187-04-4   'registry number'      Sucrose   'matching entry'   bmse000918   1    
+     no   'CAS Registry'   151756-02-4   'registry number'      Sucrose   'matching entry'   bmse000918   1    
+     no   'CAS Registry'   220376-22-7   'registry number'      Sucrose   'matching entry'   bmse000918   1    
+     no   'CAS Registry'   29253-78-9    'registry number'      Sucrose   'matching entry'   bmse000918   1    
+     no   'CAS Registry'   29764-06-5    'registry number'      Sucrose   'matching entry'   bmse000918   1    
+     no   'CAS Registry'   30027-72-6    'registry number'      Sucrose   'matching entry'   bmse000918   1    
+     no   'CAS Registry'   47167-52-2    'registry number'      Sucrose   'matching entry'   bmse000918   1    
+     no   'CAS Registry'   47185-09-1    'registry number'      Sucrose   'matching entry'   bmse000918   1    
+     no   'CAS Registry'   47257-91-0    'registry number'      Sucrose   'matching entry'   bmse000918   1    
+     no   'CAS Registry'   50857-68-6    'registry number'      Sucrose   'matching entry'   bmse000918   1    
+     no   'CAS Registry'   51909-69-4    'registry number'      Sucrose   'matching entry'   bmse000918   1    
+     no   'CAS Registry'   57-50-1       'registry number'      Sucrose   'matching entry'   bmse000918   1    
+     no   'CAS Registry'   64533-66-0    'registry number'      Sucrose   'matching entry'   bmse000918   1    
+     no   'CAS Registry'   65545-99-5    'registry number'      Sucrose   'matching entry'   bmse000918   1    
+     no   'CAS Registry'   75398-84-4    'registry number'      Sucrose   'matching entry'   bmse000918   1    
+     no   'CAS Registry'   76056-38-7    'registry number'      Sucrose   'matching entry'   bmse000918   1    
+     no   'CAS Registry'   78654-77-0    'registry number'      Sucrose   'matching entry'   bmse000918   1    
+     no   'CAS Registry'   80165-03-3    'registry number'      Sucrose   'matching entry'   bmse000918   1    
+     no   'CAS Registry'   8027-47-      'registry number'      Sucrose   'matching entry'   bmse000918   1    
+     no   CHEBI            17992         ?                      Sucrose   'matching entry'   bmse000918   1    
+     no   EINECS           200-334-9     ?                      Sucrose   'matching entry'   bmse000918   1    
+     no   CCRIS            2120          ?                      Sucrose   'matching entry'   bmse000918   1    
+     no   HSDB             500           ?                      Sucrose   'matching entry'   bmse000918   1    
+     no   NSC              406942        ?                      Sucrose   'matching entry'   bmse000918   1    
+     no   PDB              SUC           'Chemical Component'   Sucrose   'matching entry'   bmse000918   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_citation.Citation_ID
+      _Chem_comp_citation.Citation_label
+      _Chem_comp_citation.Entry_ID
+      _Chem_comp_citation.Comp_ID
+
+     1   $citation_1   bmse000918   1    
+
+   stop_
+
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category   sample
+   _Sample.Sf_framecode  sample_1
+   _Sample.Entry_ID      bmse000918
+   _Sample.ID            1
+   _Sample.Type          solution
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_units
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+     1   Sucrose              'natural abundance'   1   $sucrose   Solute      100   mM   sigma   Sucrose   bmse000918   1    
+     2   D2O                  ?                     ?   ?          Solvent     100   %    ?       ?         bmse000918   1    
+     3   'sodium phosphate'   ?                     ?   ?          Buffer      50    mM   ?       ?         bmse000918   1    
+     4   'sodium azide'       ?                     ?   ?          Cytocide    500   uM   ?       ?         bmse000918   1    
+     5   DSS                  ?                     ?   ?          Reference   0.1   %    ?       ?         bmse000918   1    
+
+   stop_
+
+save_
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category   sample_conditions
+   _Sample_condition_list.Sf_framecode  sample_conditions_1
+   _Sample_condition_list.Entry_ID      bmse000918
+   _Sample_condition_list.ID            1
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+     pH            7.4   pH   bmse000918   1    
+     temperature   298   K    bmse000918   1    
+
+   stop_
+
+save_
+
+############################
+#  Computer software used  #
+############################
+
+save_software_1
+   _Software.Sf_category   software
+   _Software.Sf_framecode  software_1
+   _Software.Entry_ID      bmse000918
+   _Software.ID            1
+   _Software.Name          TopSpin
+   _Software.Version       2.1
+
+   loop_
+      _Vendor.Name
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+     'Bruker Biospin'   bmse000918   1    
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+     Collection        bmse000918   1    
+     Processing        bmse000918   1    
+     'Data analysis'   bmse000918   1    
+     'Peak picking'    bmse000918   1    
+
+   stop_
+
+save_
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_Bruker_DMX_600
+   _NMR_spectrometer.Sf_category     NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode    Bruker_DMX_600
+   _NMR_spectrometer.Entry_ID        bmse000918
+   _NMR_spectrometer.ID              1
+   _NMR_spectrometer.Manufacturer    Bruker
+   _NMR_spectrometer.Model           DMX
+   _NMR_spectrometer.Field_strength  600
+
+save_
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category   experiment_list
+   _Experiment_list.Sf_framecode  experiment_list
+   _Experiment_list.Entry_ID      bmse000918
+   _Experiment_list.ID            1
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+     1   '1D 1H'              yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_600   bmse000918   1    
+     2   '2D [1H,1H]-TOCSY'   yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_600   bmse000918   1    
+     3   '1D DEPT90'          yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_600   bmse000918   1    
+     4   '1D DEPT135'         yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_600   bmse000918   1    
+     5   '2D [1H,13C]-HSQC'   yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_600   bmse000918   1    
+     6   '2D [1H,13C]-HMBC'   yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_600   bmse000918   1    
+     7   '2D [1H,1H]-COSY'    yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_600   bmse000918   1    
+     8   '2D [1H,13C]-HMQC'   yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_600   bmse000918   1    
+
+   stop_
+
+   loop_
+      _Experiment_file.Experiment_ID
+      _Experiment_file.Name
+      _Experiment_file.Type
+      _Experiment_file.Directory_path
+      _Experiment_file.Details
+      _Experiment_file.Entry_ID
+      _Experiment_file.Experiment_list_ID
+
+     1   1H            text/directory   nmr/set01/                      'NMR experiment directory'   bmse000918   1    
+     1   00.png        image/png        nmr/set01/spectra/1H            'Spectral image'             bmse000918   1    
+     1   01.png        image/png        nmr/set01/spectra/1H            'Spectral image'             bmse000918   1    
+     1   02.png        image/png        nmr/set01/spectra/1H            'Spectral image'             bmse000918   1    
+     2   HH_TOCSY      text/directory   nmr/set01/                      'NMR experiment directory'   bmse000918   1    
+     2   00.png        image/png        nmr/set01/spectra/HH_TOCSY      'Spectral image'             bmse000918   1    
+     2   01.png        image/png        nmr/set01/spectra/HH_TOCSY      'Spectral image'             bmse000918   1    
+     3   DEPT_90       text/directory   nmr/set01/                      'NMR experiment directory'   bmse000918   1    
+     3   00.png        image/png        nmr/set01/spectra/DEPT_90       'Spectral image'             bmse000918   1    
+     3   01.png        image/png        nmr/set01/spectra/DEPT_90       'Spectral image'             bmse000918   1    
+     4   DEPT_135      text/directory   nmr/set01/                      'NMR experiment directory'   bmse000918   1    
+     4   00.png        image/png        nmr/set01/spectra/DEPT_135      'Spectral image'             bmse000918   1    
+     4   01.png        image/png        nmr/set01/spectra/DEPT_135      'Spectral image'             bmse000918   1    
+     5   1H_13C_HSQC   text/directory   nmr/set01/                      'NMR experiment directory'   bmse000918   1    
+     5   00.png        image/png        nmr/set01/spectra/1H_13C_HSQC   'Spectral image'             bmse000918   1    
+     5   01.png        image/png        nmr/set01/spectra/1H_13C_HSQC   'Spectral image'             bmse000918   1    
+     6   1H_13C_HMBC   text/directory   nmr/set01/                      'NMR experiment directory'   bmse000918   1    
+     6   00.png        image/png        nmr/set01/spectra/1H_13C_HMBC   'Spectral image'             bmse000918   1    
+     6   01.png        image/png        nmr/set01/spectra/1H_13C_HMBC   'Spectral image'             bmse000918   1    
+     7   HH_COSY       text/directory   nmr/set01/                      'NMR experiment directory'   bmse000918   1    
+     7   00.png        image/png        nmr/set01/spectra/HH_COSY       'Spectral image'             bmse000918   1    
+     7   01.png        image/png        nmr/set01/spectra/HH_COSY       'Spectral image'             bmse000918   1    
+     8   1H_13C_HMQC   text/directory   nmr/set01/                      'NMR experiment directory'   bmse000918   1    
+     8   00.png        image/png        nmr/set01/spectra/1H_13C_HMQC   'Spectral image'             bmse000918   1    
+     8   01.png        image/png        nmr/set01/spectra/1H_13C_HMQC   'Spectral image'             bmse000918   1    
+
+   stop_
+
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chem_shift_reference
+   _Chem_shift_reference.Sf_category   chem_shift_reference
+   _Chem_shift_reference.Sf_framecode  chem_shift_reference
+   _Chem_shift_reference.Entry_ID      bmse000918
+   _Chem_shift_reference.ID            1
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+     H   1    DSS   'methyl protons'   ppm   0.00   internal   direct   1.000000000   bmse000918   1    
+     C   13   DSS   'methyl carbons'   ppm   0.00   internal   direct   1.000000000   bmse000918   1    
+
+   stop_
+
+save_
+
+    #########################
+    #  Spectral peak lists  #
+    #########################
+
+save_spectral_peak_1H
+   _Spectral_peak_list.Sf_category                    spectral_peak_list
+   _Spectral_peak_list.Sf_framecode                   spectral_peak_1H
+   _Spectral_peak_list.Entry_ID                       bmse000918
+   _Spectral_peak_list.ID                             1
+   _Spectral_peak_list.Sample_ID                      1
+   _Spectral_peak_list.Sample_label                   $sample_1
+   _Spectral_peak_list.Sample_condition_list_ID       1
+   _Spectral_peak_list.Sample_condition_list_label    $sample_conditions_1
+   _Spectral_peak_list.Experiment_ID                  1
+   _Spectral_peak_list.Experiment_name                '1D 1H'
+   _Spectral_peak_list.Number_of_spectral_dimensions  1
+
+   loop_
+      _Spectral_dim.ID
+      _Spectral_dim.Atom_type
+      _Spectral_dim.Atom_isotope_number
+      _Spectral_dim.Spectral_region
+      _Spectral_dim.Sweep_width
+      _Spectral_dim.Entry_ID
+      _Spectral_dim.Spectral_peak_list_ID
+
+     1   H   1   'Full H'   9615.38461538462   bmse000918   1    
+
+   stop_
+
+   loop_
+      _Spectral_peak_software.Software_ID
+      _Spectral_peak_software.Software_label
+      _Spectral_peak_software.Entry_ID
+      _Spectral_peak_software.Spectral_peak_list_ID
+
+     1   $software_1   bmse000918   1    
+
+   stop_
+
+   loop_
+      _Spectral_transition.ID
+      _Spectral_transition.Entry_ID
+      _Spectral_transition.Spectral_peak_list_ID
+
+     1    bmse000918   1    
+     2    bmse000918   1    
+     3    bmse000918   1    
+     4    bmse000918   1    
+     5    bmse000918   1    
+     6    bmse000918   1    
+     7    bmse000918   1    
+     8    bmse000918   1    
+     9    bmse000918   1    
+     10   bmse000918   1    
+     11   bmse000918   1    
+     12   bmse000918   1    
+     13   bmse000918   1    
+     14   bmse000918   1    
+     15   bmse000918   1    
+     16   bmse000918   1    
+     17   bmse000918   1    
+     18   bmse000918   1    
+     19   bmse000918   1    
+     20   bmse000918   1    
+     21   bmse000918   1    
+     22   bmse000918   1    
+     23   bmse000918   1    
+     24   bmse000918   1    
+     25   bmse000918   1    
+     26   bmse000918   1    
+     27   bmse000918   1    
+     28   bmse000918   1    
+     29   bmse000918   1    
+     30   bmse000918   1    
+
+   stop_
+
+   loop_
+      _Spectral_transition_general_char.Spectral_transition_ID
+      _Spectral_transition_general_char.Intensity_val
+      _Spectral_transition_general_char.Measurement_method
+      _Spectral_transition_general_char.Entry_ID
+      _Spectral_transition_general_char.Spectral_peak_list_ID
+
+     1    4.26    Height   bmse000918   1    
+     2    4.34    Height   bmse000918   1    
+     3    3.92    Height   bmse000918   1    
+     4    4.76    Height   bmse000918   1    
+     5    2.17    Height   bmse000918   1    
+     6    4.30    Height   bmse000918   1    
+     7    2.22    Height   bmse000918   1    
+     8    1.18    Height   bmse000918   1    
+     9    1.62    Height   bmse000918   1    
+     10   1.74    Height   bmse000918   1    
+     11   1.34    Height   bmse000918   1    
+     12   1.30    Height   bmse000918   1    
+     13   2.14    Height   bmse000918   1    
+     14   1.54    Height   bmse000918   1    
+     15   2.36    Height   bmse000918   1    
+     16   2.76    Height   bmse000918   1    
+     17   9.86    Height   bmse000918   1    
+     18   13.78   Height   bmse000918   1    
+     19   10.65   Height   bmse000918   1    
+     20   1.76    Height   bmse000918   1    
+     21   3.58    Height   bmse000918   1    
+     22   2.32    Height   bmse000918   1    
+     23   15.00   Height   bmse000918   1    
+     24   2.60    Height   bmse000918   1    
+     25   2.58    Height   bmse000918   1    
+     26   2.30    Height   bmse000918   1    
+     27   2.26    Height   bmse000918   1    
+     28   2.25    Height   bmse000918   1    
+     29   3.73    Height   bmse000918   1    
+     30   1.86    Height   bmse000918   1    
+
+   stop_
+
+   loop_
+      _Spectral_transition_char.Spectral_transition_ID
+      _Spectral_transition_char.Spectral_dim_ID
+      _Spectral_transition_char.Chem_shift_val
+      _Spectral_transition_char.Entry_ID
+      _Spectral_transition_char.Spectral_peak_list_ID
+
+     1    1   5.4060   bmse000918   1    
+     2    1   5.3996   bmse000918   1    
+     3    1   4.2167   bmse000918   1    
+     4    1   4.2020   bmse000918   1    
+     5    1   4.0570   bmse000918   1    
+     6    1   4.0426   bmse000918   1    
+     7    1   4.0282   bmse000918   1    
+     8    1   3.8907   bmse000918   1    
+     9    1   3.8869   bmse000918   1    
+     10   1   3.8805   bmse000918   1    
+     11   1   3.8727   bmse000918   1    
+     12   1   3.8663   bmse000918   1    
+     13   1   3.8429   bmse000918   1    
+     14   1   3.8378   bmse000918   1    
+     15   1   3.8260   bmse000918   1    
+     16   1   3.8206   bmse000918   1    
+     17   1   3.8151   bmse000918   1    
+     18   1   3.8097   bmse000918   1    
+     19   1   3.8046   bmse000918   1    
+     20   1   3.7682   bmse000918   1    
+     21   1   3.7520   bmse000918   1    
+     22   1   3.7363   bmse000918   1    
+     23   1   3.6651   bmse000918   1    
+     24   1   3.5597   bmse000918   1    
+     25   1   3.5533   bmse000918   1    
+     26   1   3.5430   bmse000918   1    
+     27   1   3.5366   bmse000918   1    
+     28   1   3.4778   bmse000918   1    
+     29   1   3.4617   bmse000918   1    
+     30   1   3.4460   bmse000918   1    
+
+   stop_
+
+save_

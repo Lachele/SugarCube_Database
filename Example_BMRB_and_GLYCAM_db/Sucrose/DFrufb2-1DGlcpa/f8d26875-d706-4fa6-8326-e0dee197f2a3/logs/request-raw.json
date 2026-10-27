@@ -1,0 +1,18 @@
+{
+    "entity": {
+        "type": "Sequence",
+        "services": {
+            "build": {
+                "type": "Build3DStructure"
+            }
+        },
+        "inputs": {
+            "sequence": {
+                "sequenceFormat": "GlycamCondensed",
+                "payload": "DFrufb2-1DGlcpa"
+            }
+        }
+    },
+    "prettyPrint": true,
+    "mdMinimize": true
+}
