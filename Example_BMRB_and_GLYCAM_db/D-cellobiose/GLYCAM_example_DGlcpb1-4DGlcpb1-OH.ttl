@@ -38,12 +38,12 @@
 	:hasModifiedTerminal	false;
 	:isAttachedToProtein	false;
 
-	:hasMono		:model_mono1;
-	:hasSequenceResidue	:model_oligo1_res1;
-	:hasTerminal		"""1-ROH""";
-
 	:hasMono		:model_mono0;
 	:hasSequenceResidue	:model_oligo1_res0;
+	:hasTerminal		"""1-ROH""";
+
+	:hasMono		:model_mono1;
+	:hasSequenceResidue	:model_oligo1_res1;
 	:hasGlycosidicLinkage	:model_oligo1_link_0;
 
 	rdf:type		:Oligosaccharide.
@@ -71,6 +71,7 @@
 	:stereochemName		"""b-D-glucopyranose""";
 	:stereochemShortName	"""DGlcpb""";
 	:monoName		"""b-D-glucopyranose""";
+	:InChI_code """InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6-/m1/s1""";
 	:shortName		"""DGlcpb""";
 	:isomer			"""D""";
 	:configuration		"""beta""";
@@ -97,6 +98,7 @@
 	:stereochemName		"""b-D-glucopyranose""";
 	:stereochemShortName	"""DGlcpb""";
 	:monoName		"""b-D-glucopyranose""";
+	:InChI_code """InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6-/m1/s1""";
 	:shortName		"""DGlcpb""";
 	:isomer			"""D""";
 	:configuration		"""beta""";
@@ -125,13 +127,13 @@
     #                    Residues                  #    
     ################################################    
 
-:model_oligo1_res1
+:model_oligo1_res0
 	:isConnectedTo		:model_oligo1_terminal;
 	rdf:type		:SequenceResidue.
 
-:model_oligo1_res0
-	:is1-4ConnectedTo	:model_oligo1_res1;
-	:isConnectedTo		:model_oligo1_res1;
+:model_oligo1_res1
+	:is1-4ConnectedTo	:model_oligo1_res0;
+	:isConnectedTo		:model_oligo1_res0;
 	rdf:type		:SequenceResidue.
 
     ################################################    
