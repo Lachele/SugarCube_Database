@@ -72,11 +72,13 @@
 	:stereochemShortName	"""DGlcpb""";
 	:monoName		"""b-D-glucopyranose""";
 	:InChI_code """InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6-/m1/s1""";
+	:SMILE_string """......""";
 	:shortName		"""DGlcpb""";
 	:isomer			"""D""";
 	:configuration		"""beta""";
 	:ringType		"""P""";
-	:hasSNFGName		"""Glc""";
+	:hasPDBname	"""GLB""";
+	:hasSNFGName	"""Glc""";
 	rdf:type		:Monosaccharide.
 
         ################################################        
@@ -99,6 +101,7 @@
 	:stereochemShortName	"""DGlcpb""";
 	:monoName		"""b-D-glucopyranose""";
 	:InChI_code """InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6-/m1/s1""";
+	:SMILE_string """......""";
 	:shortName		"""DGlcpb""";
 	:isomer			"""D""";
 	:configuration		"""beta""";
@@ -190,3 +193,4 @@ ATOM     45  H2O 0GB     3      -3.531  16.906  -1.116  1.00  0.00             H
 TER      46      0GB     3   
 END 
 """.
+
