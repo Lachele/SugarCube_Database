@@ -1,0 +1,43 @@
+name: Federated Submodule Archival and Zenodo Deployment Pipeline
+
+on:
+  push:
+    tags:
+      - 'v*' # Triggers on semantic version release tags (e.g., v1.0.0)
+
+jobs:
+  archive-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Recursive Checkout of Parent and Submodules
+        uses: actions/checkout@v4
+        with:
+          submodules: 'recursive' # Deep-hydrates all cryptographically locked submodules
+          fetch-depth: 0          # Pulls comprehensive version history
+
+      - name: Set up Python Environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Architecture Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests rdflib
+
+      - name: Execute Automated Validation Suite
+        run: |
+          # Executes graph isomorphism, schema parity checks, and matrix length matching
+          python scripts/validation/validate_catalog_and_data.py
+
+      - name: Build Global Dataset Index and Bundle Release
+        run: |
+          # Verifies master sugarcubed-catalog.jsonld matches local partition counts
+          python scripts/build_tensor.py --verify-only
+
+      - name: Programmatically Ingest and Deploy via Zenodo API
+        env:
+          ZENODO_TOKEN: ${{ secrets.ZENODO_ORGANIZATION_TOKEN }}
+        run: |
+          python .github/scripts/zenodo_release.py
+

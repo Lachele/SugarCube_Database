@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAtUtc": "2026-10-28T11:06:54.086249+00:00",
+  "generatorScript": "scripts/build_tensor.py",
+  "generatorSha256": "89cd617f4ecbdb3cf7484e30bba6a33f75337b07560d0376b41e96a88a5572a1",
+  "validatorScript": "scripts/validation/validate_catalog_and_data.py",
+  "validatorSha256": "58db936303396ea8a2307152c4cbddb1b6643a34842d5d1053c9b71cb83598b4",
+  "moleculeCount": 2,
+  "sourceDataSha256": {
+    "sugarcubed-catalog.jsonld": "27c45e1aa76497f4a160b04fbe2a431d40a8260e43123f67382c631a916fd997",
+    "data/glycam-simulation-structures/GLYCAM_example_DFrufb2-1DGlcpa.ttl": "d89be4eac607709863e69c7b632b91a273e1a752f778765c784bc653ebb039a7",
+    "data/glycam-simulation-structures/GLYCAM_example_DGlcpb1-4DGlcpb1-OH.ttl": "eeeae1651917ae02a75078879c0da372e0851d61ee81cfb401a058867d12bed5",
+    "data/bmrb-nmr-data/BMRB_bmse000138.str": "fd9cefa6b7c20b8e5f3065eb49612a8bd87c58a4df336c39aa0ed690361f65a6",
+    "data/bmrb-nmr-data/BMRB_bmse000918.str": "ae5dee2875e6d1cdbb6d583b06c83da4eb3662063f87e26aa4fe41f94bbae7c8",
+    "data/gissmo-nmr-simulation-data/bmse000918-simulation_1.str": "316ee7181821b69e110ad3a37d202475a26d6dcd3ab4e9fae300b8b51c5b3e8c"
+  },
+  "compiledOutputsSha256": {
+    "training-data/SugarCubed.xyz.json": "18de3aea621d734c88ce03dcd7b1d55b2a62979c0cd1db5dc2e748f0ad8abeba",
+    "training-data/SugarCubed.expt.json": "5dd06a7a8f07453df5a067804de04690667d4008c22117e1e744105f4b203b72",
+    "training-data/sugarcubed_tensors_full.json": "87ba9c5e549de067857a132c775fd3a5556581d3fc3b14c6440fefc4c3fe5ef7",
+    "training-data/sugarcubed_tensors.npz": "66e9d09d690a56988255c32b5d7732b60c2deed53d4cdd82958ae5d18e9ccd7d"
+  }
+}

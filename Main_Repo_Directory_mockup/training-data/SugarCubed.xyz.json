@@ -1,0 +1,4286 @@
+[
+  {
+    "inchi": "InChI=1S/C12H22O11/c13-1-4-6(16)8(18)9(19)11(21-4)23-12(3-15)10(20)7(17)5(2-14)22-12/h4-11,13-20H,1-3H2/t4-,5-,6-,7-,8+,9-,10+,11-,12+/m1/s1",
+    "glycam_sequence": "DFrufb2-1DGlcpa",
+    "canonical_smiles": "OC[C@H]1O[C@@](CO)(O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@@H]1O",
+    "is_fragment": false,
+    "num_atoms": 45,
+    "node_feature_names": [
+      "atomic_number",
+      "partial_charge",
+      "glycam_residue_index",
+      "is_pyranose",
+      "is_furanose",
+      "is_alpha",
+      "is_beta"
+    ],
+    "X_node_features": [
+      [
+        6.0,
+        0.276,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        6.0,
+        0.272,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        6.0,
+        0.287,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        6.0,
+        0.283,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        6.0,
+        0.31,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        6.0,
+        0.254,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        6.0,
+        0.293,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        6.0,
+        0.286,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        6.0,
+        0.246,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        6.0,
+        0.333,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        6.0,
+        0.509,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        6.0,
+        0.239,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        8.0,
+        -0.682,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        8.0,
+        -0.652,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        8.0,
+        -0.624,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        8.0,
+        -0.71,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        8.0,
+        -0.763,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        8.0,
+        -0.699,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        8.0,
+        -0.713,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        8.0,
+        -0.691,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        8.0,
+        -0.574,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        8.0,
+        -0.449,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        8.0,
+        -0.388,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.418,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.397,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.401,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.436,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.431,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.427,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.437,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.41,
+        2.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "R_coordinates_xyz": [
+      [
+        -2.4921,
+        15.8966,
+        -19.4946
+      ],
+      [
+        -4.566,
+        16.0894,
+        -15.2293
+      ],
+      [
+        -0.3173,
+        14.8035,
+        -13.7247
+      ],
+      [
+        -1.2532,
+        16.1746,
+        -18.6337
+      ],
+      [
+        -3.3745,
+        15.7236,
+        -14.3396
+      ],
+      [
+        0.0013,
+        16.5429,
+        -19.4523
+      ],
+      [
+        -2.793,
+        16.9112,
+        -13.5611
+      ],
+      [
+        1.2774,
+        16.6154,
+        -18.5918
+      ],
+      [
+        1.4464,
+        15.3532,
+        -17.7286
+      ],
+      [
+        -1.3677,
+        17.1084,
+        -14.0806
+      ],
+      [
+        0.1852,
+        15.0203,
+        -16.9118
+      ],
+      [
+        -0.9735,
+        15.7693,
+        -14.7392
+      ],
+      [
+        -3.6168,
+        15.6781,
+        -18.6332
+      ],
+      [
+        -5.0612,
+        14.8962,
+        -15.8511
+      ],
+      [
+        -0.3036,
+        13.4599,
+        -14.2258
+      ],
+      [
+        -0.2155,
+        17.8435,
+        -20.0275
+      ],
+      [
+        -2.7205,
+        16.5654,
+        -12.1682
+      ],
+      [
+        2.408,
+        16.7058,
+        -19.4781
+      ],
+      [
+        2.5427,
+        15.5481,
+        -16.8169
+      ],
+      [
+        -1.4351,
+        18.1679,
+        -15.0575
+      ],
+      [
+        -0.9647,
+        14.9542,
+        -17.8387
+      ],
+      [
+        -2.2743,
+        15.2448,
+        -15.1944
+      ],
+      [
+        -0.0312,
+        16.0346,
+        -15.8566
+      ],
+      [
+        -2.7061,
+        16.7481,
+        -20.141
+      ],
+      [
+        -2.338,
+        15.0174,
+        -20.1212
+      ],
+      [
+        -4.27,
+        16.8047,
+        -15.9977
+      ],
+      [
+        -5.3619,
+        16.533,
+        -14.6305
+      ],
+      [
+        -0.8645,
+        14.8059,
+        -12.7824
+      ],
+      [
+        0.7063,
+        15.1171,
+        -13.5166
+      ],
+      [
+        -1.4789,
+        16.9904,
+        -17.9427
+      ],
+      [
+        -3.6652,
+        14.9184,
+        -13.6607
+      ],
+      [
+        0.1352,
+        15.8137,
+        -20.254
+      ],
+      [
+        -3.4039,
+        17.8112,
+        -13.661
+      ],
+      [
+        1.2479,
+        17.4997,
+        -17.9514
+      ],
+      [
+        1.6755,
+        14.4999,
+        -18.3697
+      ],
+      [
+        -0.6677,
+        17.4025,
+        -13.2959
+      ],
+      [
+        0.33,
+        14.0427,
+        -16.4579
+      ],
+      [
+        -3.7525,
+        16.4517,
+        -18.0812
+      ],
+      [
+        -5.3217,
+        14.2667,
+        -15.1748
+      ],
+      [
+        0.1153,
+        12.883,
+        -13.5829
+      ],
+      [
+        0.5503,
+        18.0928,
+        -20.5502
+      ],
+      [
+        -3.6044,
+        16.397,
+        -11.8335
+      ],
+      [
+        3.217,
+        16.7341,
+        -18.9619
+      ],
+      [
+        2.3429,
+        16.2802,
+        -16.229
+      ],
+      [
+        -0.5723,
+        18.2856,
+        -15.4614
+      ]
+    ],
+    "E_edge_index": [
+      [
+        10,
+        8
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        10,
+        20
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        10,
+        22
+      ],
+      [
+        22,
+        10
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        18,
+        8
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        7,
+        17
+      ],
+      [
+        17,
+        7
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        15
+      ],
+      [
+        15,
+        5
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        20
+      ],
+      [
+        20,
+        3
+      ],
+      [
+        0,
+        12
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        22,
+        11
+      ],
+      [
+        11,
+        22
+      ],
+      [
+        11,
+        21
+      ],
+      [
+        21,
+        11
+      ],
+      [
+        11,
+        2
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        11,
+        9
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        21,
+        4
+      ],
+      [
+        4,
+        21
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        1,
+        13
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        6,
+        16
+      ],
+      [
+        16,
+        6
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        9,
+        6
+      ],
+      [
+        9,
+        19
+      ],
+      [
+        19,
+        9
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        14,
+        2
+      ],
+      [
+        10,
+        36
+      ],
+      [
+        36,
+        10
+      ],
+      [
+        8,
+        34
+      ],
+      [
+        34,
+        8
+      ],
+      [
+        7,
+        33
+      ],
+      [
+        33,
+        7
+      ],
+      [
+        5,
+        31
+      ],
+      [
+        31,
+        5
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        29,
+        3
+      ],
+      [
+        0,
+        23
+      ],
+      [
+        23,
+        0
+      ],
+      [
+        0,
+        24
+      ],
+      [
+        24,
+        0
+      ],
+      [
+        12,
+        37
+      ],
+      [
+        37,
+        12
+      ],
+      [
+        15,
+        40
+      ],
+      [
+        40,
+        15
+      ],
+      [
+        17,
+        42
+      ],
+      [
+        42,
+        17
+      ],
+      [
+        18,
+        43
+      ],
+      [
+        43,
+        18
+      ],
+      [
+        4,
+        30
+      ],
+      [
+        30,
+        4
+      ],
+      [
+        1,
+        25
+      ],
+      [
+        25,
+        1
+      ],
+      [
+        1,
+        26
+      ],
+      [
+        26,
+        1
+      ],
+      [
+        13,
+        38
+      ],
+      [
+        38,
+        13
+      ],
+      [
+        6,
+        32
+      ],
+      [
+        32,
+        6
+      ],
+      [
+        16,
+        41
+      ],
+      [
+        41,
+        16
+      ],
+      [
+        9,
+        35
+      ],
+      [
+        35,
+        9
+      ],
+      [
+        19,
+        44
+      ],
+      [
+        44,
+        19
+      ],
+      [
+        2,
+        28
+      ],
+      [
+        28,
+        2
+      ],
+      [
+        2,
+        27
+      ],
+      [
+        27,
+        2
+      ],
+      [
+        14,
+        39
+      ],
+      [
+        39,
+        14
+      ]
+    ],
+    "atoms": [
+      {
+        "alatis_index": 1,
+        "tensor_row": 0,
+        "alatis_label": "C1",
+        "element": "C",
+        "atomic_number": 6,
+        "glycam_atom_id": "1_1GA_C6",
+        "glycam_residue_index": 1,
+        "glycam_residue_name": "1GA",
+        "amber_atom_type": "Cg",
+        "partial_charge": 0.276,
+        "xyz": [
+          -2.4921,
+          15.8966,
+          -19.4946
+        ],
+        "ontology_residue_features": {
+          "residue_name": "1GA",
+          "short_name": "DGlcpa",
+          "isomer": "D",
+          "configuration": "alpha",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 2,
+        "tensor_row": 1,
+        "alatis_label": "C2",
+        "element": "C",
+        "atomic_number": 6,
+        "glycam_atom_id": "2_0CU_C6",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "0CU",
+        "amber_atom_type": "Cg",
+        "partial_charge": 0.272,
+        "xyz": [
+          -4.566,
+          16.0894,
+          -15.2293
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0CU",
+          "short_name": "DFrufb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "F",
+          "snfg_name": "Fru"
+        }
+      },
+      {
+        "alatis_index": 3,
+        "tensor_row": 2,
+        "alatis_label": "C3",
+        "element": "C",
+        "atomic_number": 6,
+        "glycam_atom_id": "2_0CU_C1",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "0CU",
+        "amber_atom_type": "Cg",
+        "partial_charge": 0.287,
+        "xyz": [
+          -0.3173,
+          14.8035,
+          -13.7247
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0CU",
+          "short_name": "DFrufb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "F",
+          "snfg_name": "Fru"
+        }
+      },
+      {
+        "alatis_index": 4,
+        "tensor_row": 3,
+        "alatis_label": "C4",
+        "element": "C",
+        "atomic_number": 6,
+        "glycam_atom_id": "1_1GA_C5",
+        "glycam_residue_index": 1,
+        "glycam_residue_name": "1GA",
+        "amber_atom_type": "Cg",
+        "partial_charge": 0.283,
+        "xyz": [
+          -1.2532,
+          16.1746,
+          -18.6337
+        ],
+        "ontology_residue_features": {
+          "residue_name": "1GA",
+          "short_name": "DGlcpa",
+          "isomer": "D",
+          "configuration": "alpha",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 5,
+        "tensor_row": 4,
+        "alatis_label": "C5",
+        "element": "C",
+        "atomic_number": 6,
+        "glycam_atom_id": "2_0CU_C5",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "0CU",
+        "amber_atom_type": "Cg",
+        "partial_charge": 0.31,
+        "xyz": [
+          -3.3745,
+          15.7236,
+          -14.3396
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0CU",
+          "short_name": "DFrufb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "F",
+          "snfg_name": "Fru"
+        }
+      },
+      {
+        "alatis_index": 6,
+        "tensor_row": 5,
+        "alatis_label": "C6",
+        "element": "C",
+        "atomic_number": 6,
+        "glycam_atom_id": "1_1GA_C4",
+        "glycam_residue_index": 1,
+        "glycam_residue_name": "1GA",
+        "amber_atom_type": "Cg",
+        "partial_charge": 0.254,
+        "xyz": [
+          0.0013,
+          16.5429,
+          -19.4523
+        ],
+        "ontology_residue_features": {
+          "residue_name": "1GA",
+          "short_name": "DGlcpa",
+          "isomer": "D",
+          "configuration": "alpha",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 7,
+        "tensor_row": 6,
+        "alatis_label": "C7",
+        "element": "C",
+        "atomic_number": 6,
+        "glycam_atom_id": "2_0CU_C4",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "0CU",
+        "amber_atom_type": "Cg",
+        "partial_charge": 0.293,
+        "xyz": [
+          -2.793,
+          16.9112,
+          -13.5611
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0CU",
+          "short_name": "DFrufb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "F",
+          "snfg_name": "Fru"
+        }
+      },
+      {
+        "alatis_index": 8,
+        "tensor_row": 7,
+        "alatis_label": "C8",
+        "element": "C",
+        "atomic_number": 6,
+        "glycam_atom_id": "1_1GA_C3",
+        "glycam_residue_index": 1,
+        "glycam_residue_name": "1GA",
+        "amber_atom_type": "Cg",
+        "partial_charge": 0.286,
+        "xyz": [
+          1.2774,
+          16.6154,
+          -18.5918
+        ],
+        "ontology_residue_features": {
+          "residue_name": "1GA",
+          "short_name": "DGlcpa",
+          "isomer": "D",
+          "configuration": "alpha",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 9,
+        "tensor_row": 8,
+        "alatis_label": "C9",
+        "element": "C",
+        "atomic_number": 6,
+        "glycam_atom_id": "1_1GA_C2",
+        "glycam_residue_index": 1,
+        "glycam_residue_name": "1GA",
+        "amber_atom_type": "Cg",
+        "partial_charge": 0.246,
+        "xyz": [
+          1.4464,
+          15.3532,
+          -17.7286
+        ],
+        "ontology_residue_features": {
+          "residue_name": "1GA",
+          "short_name": "DGlcpa",
+          "isomer": "D",
+          "configuration": "alpha",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 10,
+        "tensor_row": 9,
+        "alatis_label": "C10",
+        "element": "C",
+        "atomic_number": 6,
+        "glycam_atom_id": "2_0CU_C3",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "0CU",
+        "amber_atom_type": "Cg",
+        "partial_charge": 0.333,
+        "xyz": [
+          -1.3677,
+          17.1084,
+          -14.0806
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0CU",
+          "short_name": "DFrufb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "F",
+          "snfg_name": "Fru"
+        }
+      },
+      {
+        "alatis_index": 11,
+        "tensor_row": 10,
+        "alatis_label": "C11",
+        "element": "C",
+        "atomic_number": 6,
+        "glycam_atom_id": "1_1GA_C1",
+        "glycam_residue_index": 1,
+        "glycam_residue_name": "1GA",
+        "amber_atom_type": "Cg",
+        "partial_charge": 0.509,
+        "xyz": [
+          0.1852,
+          15.0203,
+          -16.9118
+        ],
+        "ontology_residue_features": {
+          "residue_name": "1GA",
+          "short_name": "DGlcpa",
+          "isomer": "D",
+          "configuration": "alpha",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 12,
+        "tensor_row": 11,
+        "alatis_label": "C12",
+        "element": "C",
+        "atomic_number": 6,
+        "glycam_atom_id": "2_0CU_C2",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "0CU",
+        "amber_atom_type": "Cg",
+        "partial_charge": 0.239,
+        "xyz": [
+          -0.9735,
+          15.7693,
+          -14.7392
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0CU",
+          "short_name": "DFrufb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "F",
+          "snfg_name": "Fru"
+        }
+      },
+      {
+        "alatis_index": 13,
+        "tensor_row": 12,
+        "alatis_label": "O13",
+        "element": "O",
+        "atomic_number": 8,
+        "glycam_atom_id": "1_1GA_O6",
+        "glycam_residue_index": 1,
+        "glycam_residue_name": "1GA",
+        "amber_atom_type": "Oh",
+        "partial_charge": -0.682,
+        "xyz": [
+          -3.6168,
+          15.6781,
+          -18.6332
+        ],
+        "ontology_residue_features": {
+          "residue_name": "1GA",
+          "short_name": "DGlcpa",
+          "isomer": "D",
+          "configuration": "alpha",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 14,
+        "tensor_row": 13,
+        "alatis_label": "O14",
+        "element": "O",
+        "atomic_number": 8,
+        "glycam_atom_id": "2_0CU_O6",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "0CU",
+        "amber_atom_type": "Oh",
+        "partial_charge": -0.652,
+        "xyz": [
+          -5.0612,
+          14.8962,
+          -15.8511
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0CU",
+          "short_name": "DFrufb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "F",
+          "snfg_name": "Fru"
+        }
+      },
+      {
+        "alatis_index": 15,
+        "tensor_row": 14,
+        "alatis_label": "O15",
+        "element": "O",
+        "atomic_number": 8,
+        "glycam_atom_id": "2_0CU_O1",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "0CU",
+        "amber_atom_type": "Oh",
+        "partial_charge": -0.624,
+        "xyz": [
+          -0.3036,
+          13.4599,
+          -14.2258
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0CU",
+          "short_name": "DFrufb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "F",
+          "snfg_name": "Fru"
+        }
+      },
+      {
+        "alatis_index": 16,
+        "tensor_row": 15,
+        "alatis_label": "O16",
+        "element": "O",
+        "atomic_number": 8,
+        "glycam_atom_id": "1_1GA_O4",
+        "glycam_residue_index": 1,
+        "glycam_residue_name": "1GA",
+        "amber_atom_type": "Oh",
+        "partial_charge": -0.71,
+        "xyz": [
+          -0.2155,
+          17.8435,
+          -20.0275
+        ],
+        "ontology_residue_features": {
+          "residue_name": "1GA",
+          "short_name": "DGlcpa",
+          "isomer": "D",
+          "configuration": "alpha",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 17,
+        "tensor_row": 16,
+        "alatis_label": "O17",
+        "element": "O",
+        "atomic_number": 8,
+        "glycam_atom_id": "2_0CU_O4",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "0CU",
+        "amber_atom_type": "Oh",
+        "partial_charge": -0.763,
+        "xyz": [
+          -2.7205,
+          16.5654,
+          -12.1682
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0CU",
+          "short_name": "DFrufb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "F",
+          "snfg_name": "Fru"
+        }
+      },
+      {
+        "alatis_index": 18,
+        "tensor_row": 17,
+        "alatis_label": "O18",
+        "element": "O",
+        "atomic_number": 8,
+        "glycam_atom_id": "1_1GA_O3",
+        "glycam_residue_index": 1,
+        "glycam_residue_name": "1GA",
+        "amber_atom_type": "Oh",
+        "partial_charge": -0.699,
+        "xyz": [
+          2.408,
+          16.7058,
+          -19.4781
+        ],
+        "ontology_residue_features": {
+          "residue_name": "1GA",
+          "short_name": "DGlcpa",
+          "isomer": "D",
+          "configuration": "alpha",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 19,
+        "tensor_row": 18,
+        "alatis_label": "O19",
+        "element": "O",
+        "atomic_number": 8,
+        "glycam_atom_id": "1_1GA_O2",
+        "glycam_residue_index": 1,
+        "glycam_residue_name": "1GA",
+        "amber_atom_type": "Oh",
+        "partial_charge": -0.713,
+        "xyz": [
+          2.5427,
+          15.5481,
+          -16.8169
+        ],
+        "ontology_residue_features": {
+          "residue_name": "1GA",
+          "short_name": "DGlcpa",
+          "isomer": "D",
+          "configuration": "alpha",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 20,
+        "tensor_row": 19,
+        "alatis_label": "O20",
+        "element": "O",
+        "atomic_number": 8,
+        "glycam_atom_id": "2_0CU_O3",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "0CU",
+        "amber_atom_type": "Oh",
+        "partial_charge": -0.691,
+        "xyz": [
+          -1.4351,
+          18.1679,
+          -15.0575
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0CU",
+          "short_name": "DFrufb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "F",
+          "snfg_name": "Fru"
+        }
+      },
+      {
+        "alatis_index": 21,
+        "tensor_row": 20,
+        "alatis_label": "O21",
+        "element": "O",
+        "atomic_number": 8,
+        "glycam_atom_id": "1_1GA_O5",
+        "glycam_residue_index": 1,
+        "glycam_residue_name": "1GA",
+        "amber_atom_type": "Os",
+        "partial_charge": -0.574,
+        "xyz": [
+          -0.9647,
+          14.9542,
+          -17.8387
+        ],
+        "ontology_residue_features": {
+          "residue_name": "1GA",
+          "short_name": "DGlcpa",
+          "isomer": "D",
+          "configuration": "alpha",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 22,
+        "tensor_row": 21,
+        "alatis_label": "O22",
+        "element": "O",
+        "atomic_number": 8,
+        "glycam_atom_id": "2_0CU_O5",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "0CU",
+        "amber_atom_type": "Os",
+        "partial_charge": -0.449,
+        "xyz": [
+          -2.2743,
+          15.2448,
+          -15.1944
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0CU",
+          "short_name": "DFrufb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "F",
+          "snfg_name": "Fru"
+        }
+      },
+      {
+        "alatis_index": 23,
+        "tensor_row": 22,
+        "alatis_label": "O23",
+        "element": "O",
+        "atomic_number": 8,
+        "glycam_atom_id": "1_1GA_O1",
+        "glycam_residue_index": 1,
+        "glycam_residue_name": "1GA",
+        "amber_atom_type": "Os",
+        "partial_charge": -0.388,
+        "xyz": [
+          -0.0312,
+          16.0346,
+          -15.8566
+        ],
+        "ontology_residue_features": {
+          "residue_name": "1GA",
+          "short_name": "DGlcpa",
+          "isomer": "D",
+          "configuration": "alpha",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 24,
+        "tensor_row": 23,
+        "alatis_label": "H24",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "1_1GA_H62",
+        "glycam_residue_index": 1,
+        "glycam_residue_name": "1GA",
+        "amber_atom_type": "H1",
+        "partial_charge": 0.0,
+        "xyz": [
+          -2.7061,
+          16.7481,
+          -20.141
+        ],
+        "ontology_residue_features": {
+          "residue_name": "1GA",
+          "short_name": "DGlcpa",
+          "isomer": "D",
+          "configuration": "alpha",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 25,
+        "tensor_row": 24,
+        "alatis_label": "H25",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "1_1GA_H61",
+        "glycam_residue_index": 1,
+        "glycam_residue_name": "1GA",
+        "amber_atom_type": "H1",
+        "partial_charge": 0.0,
+        "xyz": [
+          -2.338,
+          15.0174,
+          -20.1212
+        ],
+        "ontology_residue_features": {
+          "residue_name": "1GA",
+          "short_name": "DGlcpa",
+          "isomer": "D",
+          "configuration": "alpha",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 26,
+        "tensor_row": 25,
+        "alatis_label": "H26",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "2_0CU_H62",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "0CU",
+        "amber_atom_type": "H1",
+        "partial_charge": 0.0,
+        "xyz": [
+          -4.27,
+          16.8047,
+          -15.9977
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0CU",
+          "short_name": "DFrufb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "F",
+          "snfg_name": "Fru"
+        }
+      },
+      {
+        "alatis_index": 27,
+        "tensor_row": 26,
+        "alatis_label": "H27",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "2_0CU_H61",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "0CU",
+        "amber_atom_type": "H1",
+        "partial_charge": 0.0,
+        "xyz": [
+          -5.3619,
+          16.533,
+          -14.6305
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0CU",
+          "short_name": "DFrufb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "F",
+          "snfg_name": "Fru"
+        }
+      },
+      {
+        "alatis_index": 28,
+        "tensor_row": 27,
+        "alatis_label": "H28",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "2_0CU_H11",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "0CU",
+        "amber_atom_type": "H1",
+        "partial_charge": 0.0,
+        "xyz": [
+          -0.8645,
+          14.8059,
+          -12.7824
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0CU",
+          "short_name": "DFrufb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "F",
+          "snfg_name": "Fru"
+        }
+      },
+      {
+        "alatis_index": 29,
+        "tensor_row": 28,
+        "alatis_label": "H29",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "2_0CU_H12",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "0CU",
+        "amber_atom_type": "H1",
+        "partial_charge": 0.0,
+        "xyz": [
+          0.7063,
+          15.1171,
+          -13.5166
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0CU",
+          "short_name": "DFrufb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "F",
+          "snfg_name": "Fru"
+        }
+      },
+      {
+        "alatis_index": 30,
+        "tensor_row": 29,
+        "alatis_label": "H30",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "1_1GA_H5",
+        "glycam_residue_index": 1,
+        "glycam_residue_name": "1GA",
+        "amber_atom_type": "H1",
+        "partial_charge": 0.0,
+        "xyz": [
+          -1.4789,
+          16.9904,
+          -17.9427
+        ],
+        "ontology_residue_features": {
+          "residue_name": "1GA",
+          "short_name": "DGlcpa",
+          "isomer": "D",
+          "configuration": "alpha",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 31,
+        "tensor_row": 30,
+        "alatis_label": "H31",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "2_0CU_H5",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "0CU",
+        "amber_atom_type": "H1",
+        "partial_charge": 0.0,
+        "xyz": [
+          -3.6652,
+          14.9184,
+          -13.6607
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0CU",
+          "short_name": "DFrufb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "F",
+          "snfg_name": "Fru"
+        }
+      },
+      {
+        "alatis_index": 32,
+        "tensor_row": 31,
+        "alatis_label": "H32",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "1_1GA_H4",
+        "glycam_residue_index": 1,
+        "glycam_residue_name": "1GA",
+        "amber_atom_type": "H1",
+        "partial_charge": 0.0,
+        "xyz": [
+          0.1352,
+          15.8137,
+          -20.254
+        ],
+        "ontology_residue_features": {
+          "residue_name": "1GA",
+          "short_name": "DGlcpa",
+          "isomer": "D",
+          "configuration": "alpha",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 33,
+        "tensor_row": 32,
+        "alatis_label": "H33",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "2_0CU_H4",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "0CU",
+        "amber_atom_type": "H1",
+        "partial_charge": 0.0,
+        "xyz": [
+          -3.4039,
+          17.8112,
+          -13.661
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0CU",
+          "short_name": "DFrufb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "F",
+          "snfg_name": "Fru"
+        }
+      },
+      {
+        "alatis_index": 34,
+        "tensor_row": 33,
+        "alatis_label": "H34",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "1_1GA_H3",
+        "glycam_residue_index": 1,
+        "glycam_residue_name": "1GA",
+        "amber_atom_type": "H1",
+        "partial_charge": 0.0,
+        "xyz": [
+          1.2479,
+          17.4997,
+          -17.9514
+        ],
+        "ontology_residue_features": {
+          "residue_name": "1GA",
+          "short_name": "DGlcpa",
+          "isomer": "D",
+          "configuration": "alpha",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 35,
+        "tensor_row": 34,
+        "alatis_label": "H35",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "1_1GA_H2",
+        "glycam_residue_index": 1,
+        "glycam_residue_name": "1GA",
+        "amber_atom_type": "H1",
+        "partial_charge": 0.0,
+        "xyz": [
+          1.6755,
+          14.4999,
+          -18.3697
+        ],
+        "ontology_residue_features": {
+          "residue_name": "1GA",
+          "short_name": "DGlcpa",
+          "isomer": "D",
+          "configuration": "alpha",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 36,
+        "tensor_row": 35,
+        "alatis_label": "H36",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "2_0CU_H3",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "0CU",
+        "amber_atom_type": "H1",
+        "partial_charge": 0.0,
+        "xyz": [
+          -0.6677,
+          17.4025,
+          -13.2959
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0CU",
+          "short_name": "DFrufb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "F",
+          "snfg_name": "Fru"
+        }
+      },
+      {
+        "alatis_index": 37,
+        "tensor_row": 36,
+        "alatis_label": "H37",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "1_1GA_H1",
+        "glycam_residue_index": 1,
+        "glycam_residue_name": "1GA",
+        "amber_atom_type": "H2",
+        "partial_charge": 0.0,
+        "xyz": [
+          0.33,
+          14.0427,
+          -16.4579
+        ],
+        "ontology_residue_features": {
+          "residue_name": "1GA",
+          "short_name": "DGlcpa",
+          "isomer": "D",
+          "configuration": "alpha",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 38,
+        "tensor_row": 37,
+        "alatis_label": "H38",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "1_1GA_H6O",
+        "glycam_residue_index": 1,
+        "glycam_residue_name": "1GA",
+        "amber_atom_type": "Ho",
+        "partial_charge": 0.418,
+        "xyz": [
+          -3.7525,
+          16.4517,
+          -18.0812
+        ],
+        "ontology_residue_features": {
+          "residue_name": "1GA",
+          "short_name": "DGlcpa",
+          "isomer": "D",
+          "configuration": "alpha",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 39,
+        "tensor_row": 38,
+        "alatis_label": "H39",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "2_0CU_H6O",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "0CU",
+        "amber_atom_type": "Ho",
+        "partial_charge": 0.397,
+        "xyz": [
+          -5.3217,
+          14.2667,
+          -15.1748
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0CU",
+          "short_name": "DFrufb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "F",
+          "snfg_name": "Fru"
+        }
+      },
+      {
+        "alatis_index": 40,
+        "tensor_row": 39,
+        "alatis_label": "H40",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "2_0CU_H1O",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "0CU",
+        "amber_atom_type": "Ho",
+        "partial_charge": 0.401,
+        "xyz": [
+          0.1153,
+          12.883,
+          -13.5829
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0CU",
+          "short_name": "DFrufb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "F",
+          "snfg_name": "Fru"
+        }
+      },
+      {
+        "alatis_index": 41,
+        "tensor_row": 40,
+        "alatis_label": "H41",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "1_1GA_H4O",
+        "glycam_residue_index": 1,
+        "glycam_residue_name": "1GA",
+        "amber_atom_type": "Ho",
+        "partial_charge": 0.436,
+        "xyz": [
+          0.5503,
+          18.0928,
+          -20.5502
+        ],
+        "ontology_residue_features": {
+          "residue_name": "1GA",
+          "short_name": "DGlcpa",
+          "isomer": "D",
+          "configuration": "alpha",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 42,
+        "tensor_row": 41,
+        "alatis_label": "H42",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "2_0CU_H4O",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "0CU",
+        "amber_atom_type": "Ho",
+        "partial_charge": 0.431,
+        "xyz": [
+          -3.6044,
+          16.397,
+          -11.8335
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0CU",
+          "short_name": "DFrufb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "F",
+          "snfg_name": "Fru"
+        }
+      },
+      {
+        "alatis_index": 43,
+        "tensor_row": 42,
+        "alatis_label": "H43",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "1_1GA_H3O",
+        "glycam_residue_index": 1,
+        "glycam_residue_name": "1GA",
+        "amber_atom_type": "Ho",
+        "partial_charge": 0.427,
+        "xyz": [
+          3.217,
+          16.7341,
+          -18.9619
+        ],
+        "ontology_residue_features": {
+          "residue_name": "1GA",
+          "short_name": "DGlcpa",
+          "isomer": "D",
+          "configuration": "alpha",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 44,
+        "tensor_row": 43,
+        "alatis_label": "H44",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "1_1GA_H2O",
+        "glycam_residue_index": 1,
+        "glycam_residue_name": "1GA",
+        "amber_atom_type": "Ho",
+        "partial_charge": 0.437,
+        "xyz": [
+          2.3429,
+          16.2802,
+          -16.229
+        ],
+        "ontology_residue_features": {
+          "residue_name": "1GA",
+          "short_name": "DGlcpa",
+          "isomer": "D",
+          "configuration": "alpha",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 45,
+        "tensor_row": 44,
+        "alatis_label": "H45",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "2_0CU_H3O",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "0CU",
+        "amber_atom_type": "Ho",
+        "partial_charge": 0.41,
+        "xyz": [
+          -0.5723,
+          18.2856,
+          -15.4614
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0CU",
+          "short_name": "DFrufb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "F",
+          "snfg_name": "Fru"
+        }
+      }
+    ]
+  },
+  {
+    "inchi": "InChI=1S/C12H22O11/c13-1-3-5(15)6(16)9(19)12(22-3)23-10-4(2-14)21-11(20)8(18)7(10)17/h3-20H,1-2H2/t3-,4-,5-,6+,7-,8-,9-,10-,11-,12+/m1/s1",
+    "glycam_sequence": "DGlcpb1-4DGlcpb1-ROH",
+    "canonical_smiles": "OC[C@H]1O[C@@H](O[C@H]2[C@H](O)[C@@H](O)[C@H](O)O[C@@H]2CO)[C@H](O)[C@@H](O)[C@@H]1O",
+    "is_fragment": false,
+    "num_atoms": 45,
+    "node_feature_names": [
+      "atomic_number",
+      "partial_charge",
+      "glycam_residue_index",
+      "is_pyranose",
+      "is_furanose",
+      "is_alpha",
+      "is_beta"
+    ],
+    "X_node_features": [
+      [
+        6.0,
+        0.282,
+        3.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        6.0,
+        0.282,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        6.0,
+        0.225,
+        3.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        6.0,
+        0.225,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        6.0,
+        0.276,
+        3.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        6.0,
+        0.284,
+        3.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        6.0,
+        0.284,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        6.0,
+        0.31,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        6.0,
+        0.31,
+        3.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        6.0,
+        0.276,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        6.0,
+        0.384,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        6.0,
+        0.384,
+        3.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        8.0,
+        -0.688,
+        3.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        8.0,
+        -0.688,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        8.0,
+        -0.714,
+        3.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        8.0,
+        -0.709,
+        3.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        8.0,
+        -0.709,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        8.0,
+        -0.718,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        8.0,
+        -0.718,
+        3.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        8.0,
+        -0.639,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        8.0,
+        -0.471,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        8.0,
+        -0.471,
+        3.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        8.0,
+        -0.468,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        3.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        3.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        3.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        3.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        3.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        3.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        3.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.424,
+        3.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.424,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.44,
+        3.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.432,
+        3.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.432,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.437,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.437,
+        3.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.445,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "R_coordinates_xyz": [
+      [
+        -8.7555,
+        16.6308,
+        -4.3902
+      ],
+      [
+        -4.4702,
+        13.7857,
+        0.1677
+      ],
+      [
+        -7.7968,
+        16.9042,
+        -3.2235
+      ],
+      [
+        -4.0307,
+        13.171,
+        -1.1671
+      ],
+      [
+        -7.2677,
+        18.3517,
+        -3.1765
+      ],
+      [
+        -6.1678,
+        18.5406,
+        -2.1139
+      ],
+      [
+        -4.4458,
+        12.9465,
+        -3.6687
+      ],
+      [
+        -4.5275,
+        11.417,
+        -3.5113
+      ],
+      [
+        -5.0586,
+        17.4795,
+        -2.2317
+      ],
+      [
+        -4.8295,
+        13.6875,
+        -2.3774
+      ],
+      [
+        -3.7851,
+        10.9196,
+        -2.2555
+      ],
+      [
+        -5.626,
+        16.0526,
+        -2.2964
+      ],
+      [
+        -9.2378,
+        15.2839,
+        -4.2896
+      ],
+      [
+        -3.6171,
+        13.2935,
+        1.2097
+      ],
+      [
+        -8.3679,
+        19.2125,
+        -2.833
+      ],
+      [
+        -5.5691,
+        19.8342,
+        -2.3141
+      ],
+      [
+        -5.3662,
+        13.3464,
+        -4.6997
+      ],
+      [
+        -3.894,
+        10.8246,
+        -4.6596
+      ],
+      [
+        -4.2282,
+        17.5633,
+        -1.0604
+      ],
+      [
+        -4.0836,
+        9.5292,
+        -2.0688
+      ],
+      [
+        -4.222,
+        11.7053,
+        -1.0851
+      ],
+      [
+        -6.6379,
+        15.9961,
+        -3.3689
+      ],
+      [
+        -4.5199,
+        15.1194,
+        -2.5608
+      ],
+      [
+        -8.247,
+        16.7631,
+        -5.346
+      ],
+      [
+        -9.6055,
+        17.3126,
+        -4.3539
+      ],
+      [
+        -5.505,
+        13.5233,
+        0.3913
+      ],
+      [
+        -4.3891,
+        14.8721,
+        0.1332
+      ],
+      [
+        -8.3027,
+        16.6743,
+        -2.2827
+      ],
+      [
+        -2.9699,
+        13.3791,
+        -1.3236
+      ],
+      [
+        -6.8868,
+        18.6306,
+        -4.1611
+      ],
+      [
+        -6.6103,
+        18.4997,
+        -1.1159
+      ],
+      [
+        -3.4342,
+        13.2353,
+        -3.9619
+      ],
+      [
+        -5.5725,
+        11.1017,
+        -3.4709
+      ],
+      [
+        -4.4504,
+        17.6684,
+        -3.1186
+      ],
+      [
+        -5.8966,
+        13.5463,
+        -2.1855
+      ],
+      [
+        -2.7069,
+        11.0355,
+        -2.3746
+      ],
+      [
+        -6.0941,
+        15.7947,
+        -1.3447
+      ],
+      [
+        -8.4955,
+        14.6759,
+        -4.3215
+      ],
+      [
+        -3.6822,
+        12.3366,
+        1.2503
+      ],
+      [
+        -8.0637,
+        20.1225,
+        -2.8023
+      ],
+      [
+        -4.8813,
+        19.9725,
+        -1.6588
+      ],
+      [
+        -5.1389,
+        12.9029,
+        -5.5202
+      ],
+      [
+        -3.9327,
+        9.8681,
+        -4.5876
+      ],
+      [
+        -3.5306,
+        16.906,
+        -1.1157
+      ],
+      [
+        -3.6366,
+        9.2094,
+        -1.2817
+      ]
+    ],
+    "E_edge_index": [
+      [
+        19,
+        10
+      ],
+      [
+        10,
+        19
+      ],
+      [
+        10,
+        20
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        10,
+        7
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        20,
+        3
+      ],
+      [
+        3,
+        20
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        9,
+        3
+      ],
+      [
+        1,
+        13
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        9,
+        22
+      ],
+      [
+        22,
+        9
+      ],
+      [
+        9,
+        6
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        6,
+        16
+      ],
+      [
+        16,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        7,
+        17
+      ],
+      [
+        17,
+        7
+      ],
+      [
+        22,
+        11
+      ],
+      [
+        11,
+        22
+      ],
+      [
+        11,
+        21
+      ],
+      [
+        21,
+        11
+      ],
+      [
+        11,
+        8
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        21,
+        2
+      ],
+      [
+        2,
+        21
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        0,
+        12
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        4,
+        14
+      ],
+      [
+        14,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        5,
+        15
+      ],
+      [
+        15,
+        5
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        8,
+        5
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        18,
+        8
+      ],
+      [
+        44,
+        19
+      ],
+      [
+        19,
+        44
+      ],
+      [
+        10,
+        35
+      ],
+      [
+        35,
+        10
+      ],
+      [
+        3,
+        28
+      ],
+      [
+        28,
+        3
+      ],
+      [
+        1,
+        25
+      ],
+      [
+        25,
+        1
+      ],
+      [
+        1,
+        26
+      ],
+      [
+        26,
+        1
+      ],
+      [
+        13,
+        38
+      ],
+      [
+        38,
+        13
+      ],
+      [
+        9,
+        34
+      ],
+      [
+        34,
+        9
+      ],
+      [
+        6,
+        31
+      ],
+      [
+        31,
+        6
+      ],
+      [
+        16,
+        41
+      ],
+      [
+        41,
+        16
+      ],
+      [
+        7,
+        32
+      ],
+      [
+        32,
+        7
+      ],
+      [
+        17,
+        42
+      ],
+      [
+        42,
+        17
+      ],
+      [
+        11,
+        36
+      ],
+      [
+        36,
+        11
+      ],
+      [
+        2,
+        27
+      ],
+      [
+        27,
+        2
+      ],
+      [
+        0,
+        23
+      ],
+      [
+        23,
+        0
+      ],
+      [
+        0,
+        24
+      ],
+      [
+        24,
+        0
+      ],
+      [
+        12,
+        37
+      ],
+      [
+        37,
+        12
+      ],
+      [
+        4,
+        29
+      ],
+      [
+        29,
+        4
+      ],
+      [
+        14,
+        39
+      ],
+      [
+        39,
+        14
+      ],
+      [
+        5,
+        30
+      ],
+      [
+        30,
+        5
+      ],
+      [
+        15,
+        40
+      ],
+      [
+        40,
+        15
+      ],
+      [
+        8,
+        33
+      ],
+      [
+        33,
+        8
+      ],
+      [
+        18,
+        43
+      ],
+      [
+        43,
+        18
+      ]
+    ],
+    "atoms": [
+      {
+        "alatis_index": 1,
+        "tensor_row": 0,
+        "alatis_label": "C1",
+        "element": "C",
+        "atomic_number": 6,
+        "glycam_atom_id": "3_0GB_C6",
+        "glycam_residue_index": 3,
+        "glycam_residue_name": "0GB",
+        "amber_atom_type": "Cg",
+        "partial_charge": 0.282,
+        "xyz": [
+          -8.7555,
+          16.6308,
+          -4.3902
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 2,
+        "tensor_row": 1,
+        "alatis_label": "C2",
+        "element": "C",
+        "atomic_number": 6,
+        "glycam_atom_id": "2_4GB_C6",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "4GB",
+        "amber_atom_type": "Cg",
+        "partial_charge": 0.282,
+        "xyz": [
+          -4.4702,
+          13.7857,
+          0.1677
+        ],
+        "ontology_residue_features": {
+          "residue_name": "4GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 3,
+        "tensor_row": 2,
+        "alatis_label": "C3",
+        "element": "C",
+        "atomic_number": 6,
+        "glycam_atom_id": "3_0GB_C5",
+        "glycam_residue_index": 3,
+        "glycam_residue_name": "0GB",
+        "amber_atom_type": "Cg",
+        "partial_charge": 0.225,
+        "xyz": [
+          -7.7968,
+          16.9042,
+          -3.2235
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 4,
+        "tensor_row": 3,
+        "alatis_label": "C4",
+        "element": "C",
+        "atomic_number": 6,
+        "glycam_atom_id": "2_4GB_C5",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "4GB",
+        "amber_atom_type": "Cg",
+        "partial_charge": 0.225,
+        "xyz": [
+          -4.0307,
+          13.171,
+          -1.1671
+        ],
+        "ontology_residue_features": {
+          "residue_name": "4GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 5,
+        "tensor_row": 4,
+        "alatis_label": "C5",
+        "element": "C",
+        "atomic_number": 6,
+        "glycam_atom_id": "3_0GB_C4",
+        "glycam_residue_index": 3,
+        "glycam_residue_name": "0GB",
+        "amber_atom_type": "Cg",
+        "partial_charge": 0.276,
+        "xyz": [
+          -7.2677,
+          18.3517,
+          -3.1765
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 6,
+        "tensor_row": 5,
+        "alatis_label": "C6",
+        "element": "C",
+        "atomic_number": 6,
+        "glycam_atom_id": "3_0GB_C3",
+        "glycam_residue_index": 3,
+        "glycam_residue_name": "0GB",
+        "amber_atom_type": "Cg",
+        "partial_charge": 0.284,
+        "xyz": [
+          -6.1678,
+          18.5406,
+          -2.1139
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 7,
+        "tensor_row": 6,
+        "alatis_label": "C7",
+        "element": "C",
+        "atomic_number": 6,
+        "glycam_atom_id": "2_4GB_C3",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "4GB",
+        "amber_atom_type": "Cg",
+        "partial_charge": 0.284,
+        "xyz": [
+          -4.4458,
+          12.9465,
+          -3.6687
+        ],
+        "ontology_residue_features": {
+          "residue_name": "4GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 8,
+        "tensor_row": 7,
+        "alatis_label": "C8",
+        "element": "C",
+        "atomic_number": 6,
+        "glycam_atom_id": "2_4GB_C2",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "4GB",
+        "amber_atom_type": "Cg",
+        "partial_charge": 0.31,
+        "xyz": [
+          -4.5275,
+          11.417,
+          -3.5113
+        ],
+        "ontology_residue_features": {
+          "residue_name": "4GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 9,
+        "tensor_row": 8,
+        "alatis_label": "C9",
+        "element": "C",
+        "atomic_number": 6,
+        "glycam_atom_id": "3_0GB_C2",
+        "glycam_residue_index": 3,
+        "glycam_residue_name": "0GB",
+        "amber_atom_type": "Cg",
+        "partial_charge": 0.31,
+        "xyz": [
+          -5.0586,
+          17.4795,
+          -2.2317
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 10,
+        "tensor_row": 9,
+        "alatis_label": "C10",
+        "element": "C",
+        "atomic_number": 6,
+        "glycam_atom_id": "2_4GB_C4",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "4GB",
+        "amber_atom_type": "Cg",
+        "partial_charge": 0.276,
+        "xyz": [
+          -4.8295,
+          13.6875,
+          -2.3774
+        ],
+        "ontology_residue_features": {
+          "residue_name": "4GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 11,
+        "tensor_row": 10,
+        "alatis_label": "C11",
+        "element": "C",
+        "atomic_number": 6,
+        "glycam_atom_id": "2_4GB_C1",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "4GB",
+        "amber_atom_type": "Cg",
+        "partial_charge": 0.384,
+        "xyz": [
+          -3.7851,
+          10.9196,
+          -2.2555
+        ],
+        "ontology_residue_features": {
+          "residue_name": "4GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 12,
+        "tensor_row": 11,
+        "alatis_label": "C12",
+        "element": "C",
+        "atomic_number": 6,
+        "glycam_atom_id": "3_0GB_C1",
+        "glycam_residue_index": 3,
+        "glycam_residue_name": "0GB",
+        "amber_atom_type": "Cg",
+        "partial_charge": 0.384,
+        "xyz": [
+          -5.626,
+          16.0526,
+          -2.2964
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 13,
+        "tensor_row": 12,
+        "alatis_label": "O13",
+        "element": "O",
+        "atomic_number": 8,
+        "glycam_atom_id": "3_0GB_O6",
+        "glycam_residue_index": 3,
+        "glycam_residue_name": "0GB",
+        "amber_atom_type": "Oh",
+        "partial_charge": -0.688,
+        "xyz": [
+          -9.2378,
+          15.2839,
+          -4.2896
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 14,
+        "tensor_row": 13,
+        "alatis_label": "O14",
+        "element": "O",
+        "atomic_number": 8,
+        "glycam_atom_id": "2_4GB_O6",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "4GB",
+        "amber_atom_type": "Oh",
+        "partial_charge": -0.688,
+        "xyz": [
+          -3.6171,
+          13.2935,
+          1.2097
+        ],
+        "ontology_residue_features": {
+          "residue_name": "4GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 15,
+        "tensor_row": 14,
+        "alatis_label": "O15",
+        "element": "O",
+        "atomic_number": 8,
+        "glycam_atom_id": "3_0GB_O4",
+        "glycam_residue_index": 3,
+        "glycam_residue_name": "0GB",
+        "amber_atom_type": "Oh",
+        "partial_charge": -0.714,
+        "xyz": [
+          -8.3679,
+          19.2125,
+          -2.833
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 16,
+        "tensor_row": 15,
+        "alatis_label": "O16",
+        "element": "O",
+        "atomic_number": 8,
+        "glycam_atom_id": "3_0GB_O3",
+        "glycam_residue_index": 3,
+        "glycam_residue_name": "0GB",
+        "amber_atom_type": "Oh",
+        "partial_charge": -0.709,
+        "xyz": [
+          -5.5691,
+          19.8342,
+          -2.3141
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 17,
+        "tensor_row": 16,
+        "alatis_label": "O17",
+        "element": "O",
+        "atomic_number": 8,
+        "glycam_atom_id": "2_4GB_O3",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "4GB",
+        "amber_atom_type": "Oh",
+        "partial_charge": -0.709,
+        "xyz": [
+          -5.3662,
+          13.3464,
+          -4.6997
+        ],
+        "ontology_residue_features": {
+          "residue_name": "4GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 18,
+        "tensor_row": 17,
+        "alatis_label": "O18",
+        "element": "O",
+        "atomic_number": 8,
+        "glycam_atom_id": "2_4GB_O2",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "4GB",
+        "amber_atom_type": "Oh",
+        "partial_charge": -0.718,
+        "xyz": [
+          -3.894,
+          10.8246,
+          -4.6596
+        ],
+        "ontology_residue_features": {
+          "residue_name": "4GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 19,
+        "tensor_row": 18,
+        "alatis_label": "O19",
+        "element": "O",
+        "atomic_number": 8,
+        "glycam_atom_id": "3_0GB_O2",
+        "glycam_residue_index": 3,
+        "glycam_residue_name": "0GB",
+        "amber_atom_type": "Oh",
+        "partial_charge": -0.718,
+        "xyz": [
+          -4.2282,
+          17.5633,
+          -1.0604
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 20,
+        "tensor_row": 19,
+        "alatis_label": "O20",
+        "element": "O",
+        "atomic_number": 8,
+        "glycam_atom_id": "1_ROH_O1",
+        "glycam_residue_index": 1,
+        "glycam_residue_name": "ROH",
+        "amber_atom_type": "Oh",
+        "partial_charge": -0.639,
+        "xyz": [
+          -4.0836,
+          9.5292,
+          -2.0688
+        ],
+        "ontology_residue_features": {
+          "residue_name": "ROH"
+        }
+      },
+      {
+        "alatis_index": 21,
+        "tensor_row": 20,
+        "alatis_label": "O21",
+        "element": "O",
+        "atomic_number": 8,
+        "glycam_atom_id": "2_4GB_O5",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "4GB",
+        "amber_atom_type": "Os",
+        "partial_charge": -0.471,
+        "xyz": [
+          -4.222,
+          11.7053,
+          -1.0851
+        ],
+        "ontology_residue_features": {
+          "residue_name": "4GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 22,
+        "tensor_row": 21,
+        "alatis_label": "O22",
+        "element": "O",
+        "atomic_number": 8,
+        "glycam_atom_id": "3_0GB_O5",
+        "glycam_residue_index": 3,
+        "glycam_residue_name": "0GB",
+        "amber_atom_type": "Os",
+        "partial_charge": -0.471,
+        "xyz": [
+          -6.6379,
+          15.9961,
+          -3.3689
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 23,
+        "tensor_row": 22,
+        "alatis_label": "O23",
+        "element": "O",
+        "atomic_number": 8,
+        "glycam_atom_id": "2_4GB_O4",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "4GB",
+        "amber_atom_type": "Os",
+        "partial_charge": -0.468,
+        "xyz": [
+          -4.5199,
+          15.1194,
+          -2.5608
+        ],
+        "ontology_residue_features": {
+          "residue_name": "4GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 24,
+        "tensor_row": 23,
+        "alatis_label": "H24",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "3_0GB_H62",
+        "glycam_residue_index": 3,
+        "glycam_residue_name": "0GB",
+        "amber_atom_type": "H1",
+        "partial_charge": 0.0,
+        "xyz": [
+          -8.247,
+          16.7631,
+          -5.346
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 25,
+        "tensor_row": 24,
+        "alatis_label": "H25",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "3_0GB_H61",
+        "glycam_residue_index": 3,
+        "glycam_residue_name": "0GB",
+        "amber_atom_type": "H1",
+        "partial_charge": 0.0,
+        "xyz": [
+          -9.6055,
+          17.3126,
+          -4.3539
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 26,
+        "tensor_row": 25,
+        "alatis_label": "H26",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "2_4GB_H62",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "4GB",
+        "amber_atom_type": "H1",
+        "partial_charge": 0.0,
+        "xyz": [
+          -5.505,
+          13.5233,
+          0.3913
+        ],
+        "ontology_residue_features": {
+          "residue_name": "4GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 27,
+        "tensor_row": 26,
+        "alatis_label": "H27",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "2_4GB_H61",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "4GB",
+        "amber_atom_type": "H1",
+        "partial_charge": 0.0,
+        "xyz": [
+          -4.3891,
+          14.8721,
+          0.1332
+        ],
+        "ontology_residue_features": {
+          "residue_name": "4GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 28,
+        "tensor_row": 27,
+        "alatis_label": "H28",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "3_0GB_H5",
+        "glycam_residue_index": 3,
+        "glycam_residue_name": "0GB",
+        "amber_atom_type": "H1",
+        "partial_charge": 0.0,
+        "xyz": [
+          -8.3027,
+          16.6743,
+          -2.2827
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 29,
+        "tensor_row": 28,
+        "alatis_label": "H29",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "2_4GB_H5",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "4GB",
+        "amber_atom_type": "H1",
+        "partial_charge": 0.0,
+        "xyz": [
+          -2.9699,
+          13.3791,
+          -1.3236
+        ],
+        "ontology_residue_features": {
+          "residue_name": "4GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 30,
+        "tensor_row": 29,
+        "alatis_label": "H30",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "3_0GB_H4",
+        "glycam_residue_index": 3,
+        "glycam_residue_name": "0GB",
+        "amber_atom_type": "H1",
+        "partial_charge": 0.0,
+        "xyz": [
+          -6.8868,
+          18.6306,
+          -4.1611
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 31,
+        "tensor_row": 30,
+        "alatis_label": "H31",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "3_0GB_H3",
+        "glycam_residue_index": 3,
+        "glycam_residue_name": "0GB",
+        "amber_atom_type": "H1",
+        "partial_charge": 0.0,
+        "xyz": [
+          -6.6103,
+          18.4997,
+          -1.1159
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 32,
+        "tensor_row": 31,
+        "alatis_label": "H32",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "2_4GB_H3",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "4GB",
+        "amber_atom_type": "H1",
+        "partial_charge": 0.0,
+        "xyz": [
+          -3.4342,
+          13.2353,
+          -3.9619
+        ],
+        "ontology_residue_features": {
+          "residue_name": "4GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 33,
+        "tensor_row": 32,
+        "alatis_label": "H33",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "2_4GB_H2",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "4GB",
+        "amber_atom_type": "H1",
+        "partial_charge": 0.0,
+        "xyz": [
+          -5.5725,
+          11.1017,
+          -3.4709
+        ],
+        "ontology_residue_features": {
+          "residue_name": "4GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 34,
+        "tensor_row": 33,
+        "alatis_label": "H34",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "3_0GB_H2",
+        "glycam_residue_index": 3,
+        "glycam_residue_name": "0GB",
+        "amber_atom_type": "H1",
+        "partial_charge": 0.0,
+        "xyz": [
+          -4.4504,
+          17.6684,
+          -3.1186
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 35,
+        "tensor_row": 34,
+        "alatis_label": "H35",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "2_4GB_H4",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "4GB",
+        "amber_atom_type": "H1",
+        "partial_charge": 0.0,
+        "xyz": [
+          -5.8966,
+          13.5463,
+          -2.1855
+        ],
+        "ontology_residue_features": {
+          "residue_name": "4GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 36,
+        "tensor_row": 35,
+        "alatis_label": "H36",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "2_4GB_H1",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "4GB",
+        "amber_atom_type": "H2",
+        "partial_charge": 0.0,
+        "xyz": [
+          -2.7069,
+          11.0355,
+          -2.3746
+        ],
+        "ontology_residue_features": {
+          "residue_name": "4GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 37,
+        "tensor_row": 36,
+        "alatis_label": "H37",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "3_0GB_H1",
+        "glycam_residue_index": 3,
+        "glycam_residue_name": "0GB",
+        "amber_atom_type": "H2",
+        "partial_charge": 0.0,
+        "xyz": [
+          -6.0941,
+          15.7947,
+          -1.3447
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 38,
+        "tensor_row": 37,
+        "alatis_label": "H38",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "3_0GB_H6O",
+        "glycam_residue_index": 3,
+        "glycam_residue_name": "0GB",
+        "amber_atom_type": "Ho",
+        "partial_charge": 0.424,
+        "xyz": [
+          -8.4955,
+          14.6759,
+          -4.3215
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 39,
+        "tensor_row": 38,
+        "alatis_label": "H39",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "2_4GB_H6O",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "4GB",
+        "amber_atom_type": "Ho",
+        "partial_charge": 0.424,
+        "xyz": [
+          -3.6822,
+          12.3366,
+          1.2503
+        ],
+        "ontology_residue_features": {
+          "residue_name": "4GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 40,
+        "tensor_row": 39,
+        "alatis_label": "H40",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "3_0GB_H4O",
+        "glycam_residue_index": 3,
+        "glycam_residue_name": "0GB",
+        "amber_atom_type": "Ho",
+        "partial_charge": 0.44,
+        "xyz": [
+          -8.0637,
+          20.1225,
+          -2.8023
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 41,
+        "tensor_row": 40,
+        "alatis_label": "H41",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "3_0GB_H3O",
+        "glycam_residue_index": 3,
+        "glycam_residue_name": "0GB",
+        "amber_atom_type": "Ho",
+        "partial_charge": 0.432,
+        "xyz": [
+          -4.8813,
+          19.9725,
+          -1.6588
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 42,
+        "tensor_row": 41,
+        "alatis_label": "H42",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "2_4GB_H3O",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "4GB",
+        "amber_atom_type": "Ho",
+        "partial_charge": 0.432,
+        "xyz": [
+          -5.1389,
+          12.9029,
+          -5.5202
+        ],
+        "ontology_residue_features": {
+          "residue_name": "4GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 43,
+        "tensor_row": 42,
+        "alatis_label": "H43",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "2_4GB_H2O",
+        "glycam_residue_index": 2,
+        "glycam_residue_name": "4GB",
+        "amber_atom_type": "Ho",
+        "partial_charge": 0.437,
+        "xyz": [
+          -3.9327,
+          9.8681,
+          -4.5876
+        ],
+        "ontology_residue_features": {
+          "residue_name": "4GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 44,
+        "tensor_row": 43,
+        "alatis_label": "H44",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "3_0GB_H2O",
+        "glycam_residue_index": 3,
+        "glycam_residue_name": "0GB",
+        "amber_atom_type": "Ho",
+        "partial_charge": 0.437,
+        "xyz": [
+          -3.5306,
+          16.906,
+          -1.1157
+        ],
+        "ontology_residue_features": {
+          "residue_name": "0GB",
+          "short_name": "DGlcpb",
+          "isomer": "D",
+          "configuration": "beta",
+          "ring_type": "P",
+          "snfg_name": "Glc"
+        }
+      },
+      {
+        "alatis_index": 45,
+        "tensor_row": 44,
+        "alatis_label": "H45",
+        "element": "H",
+        "atomic_number": 1,
+        "glycam_atom_id": "1_ROH_HO1",
+        "glycam_residue_index": 1,
+        "glycam_residue_name": "ROH",
+        "amber_atom_type": "Ho",
+        "partial_charge": 0.445,
+        "xyz": [
+          -3.6366,
+          9.2094,
+          -1.2817
+        ],
+        "ontology_residue_features": {
+          "residue_name": "ROH"
+        }
+      }
+    ]
+  }
+]

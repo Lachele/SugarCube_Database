@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "sugarcubed": "https://w3id.org/sugarcubed#",
+    "gmmo": "http://gmmo.uga.edu/#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://github.com/SugarCubed/SugarCubed-Data",
+  "@type": "schema:Dataset",
+  "schema:name": "SugarCubed: Multi-Modal Carbohydrate 3D Structure & NMR Benchmark",
+  "schema:version": "1.0.0",
+  "schema:license": "https://creativecommons.org/licenses/by/4.0/",
+  "sugarcubed:moleculeAnchorStandard": "IUPAC Standard InChI (v1S)",
+  "sugarcubed:atomAlignmentStandard": "ALATIS (InChI Canonical Atom Indexing)",
+  "sugarcubed:dataPartitions": [
+    {
+      "@id": "sugarcubed:glycam-simulation-structures",
+      "@type": "dcat:Distribution",
+      "schema:name": "GLYCAM-Web 3D Structures & Carbohydrate Ontology",
+      "schema:encodingFormat": "text/turtle",
+      "schema:contentUrl": "./data/glycam-simulation-structures/",
+      "sugarcubed:curationTier": "Tier-1-Core-Curated",
+      "sugarcubed:moleculeAnchorField": "gmmo:InChICode",
+      "sugarcubed:fragmentFlagField": "gmmo:isFragment",
+      "sugarcubed:coordinateSourceField": "gmmo:Mol2file",
+      "sugarcubed:atomMapField": "gmmo:hasALATISMapping",
+      "sugarcubed:atomMapMethod": "RDKit-3D-Chiral-Substructure-to-ALATIS"
+    },
+    {
+      "@id": "sugarcubed:bmrb-nmr-data",
+      "@type": "dcat:Distribution",
+      "schema:name": "BMRB Experimental NMR Chemical Shifts & Peak Lists",
+      "schema:encodingFormat": "application/x-nmr-star",
+      "schema:contentUrl": "./data/bmrb-nmr-data/",
+      "sugarcubed:curationTier": "Tier-1-Core-Curated",
+      "sugarcubed:moleculeAnchorField": "_Chem_comp.InChI_code",
+      "sugarcubed:atomIndexLoop": "_Atom_nomenclature",
+      "sugarcubed:atomIndexFormat": "Element+ALATIS_Index",
+      "sugarcubed:observables": [
+        "_Atom_chem_shift.Val",
+        "_Atom_chem_shift.Ambiguity_code",
+        "_Spectral_peak_1H"
+      ]
+    },
+    {
+      "@id": "sugarcubed:gissmo-nmr-simulation-data",
+      "@type": "dcat:Distribution",
+      "schema:name": "GISSMO Simulated Complete Spin Matrices (Shifts & J-Couplings)",
+      "schema:encodingFormat": "application/x-nmr-star",
+      "schema:contentUrl": "./data/gissmo-nmr-simulation-data/",
+      "sugarcubed:curationTier": "Tier-1-Core-Curated",
+      "sugarcubed:moleculeAnchorField": "_Chem_comp.InChI_code",
+      "sugarcubed:atomIndexLoop": "_Chem_comp_atom",
+      "sugarcubed:atomIndexFormat": "ALATIS_Integer_Index",
+      "sugarcubed:observables": [
+        "_Atom_chem_shift.Val",
+        "_Coupling_constant.Val"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+## uncomment the following before making this repo real
+## purpose: default location for auto-generated training data
+## users can choose other locations easily
+#training-data
